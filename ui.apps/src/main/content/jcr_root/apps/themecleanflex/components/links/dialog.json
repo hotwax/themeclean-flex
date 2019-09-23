@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "title",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "title",
+          "label": "Title",
+          "model": "title"
+        },
+        {
+          "type": "pathbrowser",
+          "browserRoot": "/content",
+          "placeholder": "internallink",
+          "label": "Internal link",
+          "model": "internallink"
+        },
+        {
+          "type": "input",
+          "inputType": "url",
+          "placeholder": "externalurl",
+          "label": "External Url (with http protocol)",
+          "model": "externalurl"
+        }
+      ],
+      "placeholder": "links",
+      "label": "Please enter internal link or external url",
+      "model": "links"
+    }
+  ]
+}

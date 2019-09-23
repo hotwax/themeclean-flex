@@ -1,0 +1,38 @@
+{
+  "definitions": {
+    "Links": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "links": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Please enter internal link or external url",
+          "x-form-fieldLabel": "title",
+          "x-form-type": "collection",
+          "properties": {
+            "title": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Title",
+              "x-form-type": "text"
+            },
+            "internallink": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Internal link",
+              "x-form-type": "pathbrowser",
+              "x-form-browserRoot": ""
+            },
+            "externalurl": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "External Url (with http protocol)",
+              "x-form-type": "url"
+            }
+          }
+        }
+      }
+    }
+  }
+}

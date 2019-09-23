@@ -1,0 +1,13 @@
+{
+  "title": "Links",
+  "group": "",
+  "model": {
+    "links": [
+      {
+        "title": "Demo link 1",
+        "internallink": "",
+        "externalurl": "https://www.google.com"
+      }
+    ]
+  }
+}
