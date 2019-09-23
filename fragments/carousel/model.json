@@ -109,6 +109,12 @@
               "x-form-type": "pathbrowser",
               "x-form-browserRoot": "/content/sites"
             },
+            "title": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Image Title",
+              "x-form-type": "text"
+            },
             "text": {
               "type": "string",
               "x-source": "inject",

@@ -30,6 +30,11 @@ module.exports = {
         f.bindAttribute(image, "alt", "item.alt")
         f.bindAttribute(image, "class", "item.imagefit === 'cover' ? 'object-cover' : 'object-contain'", false)
 
+        //Image Title
+        let h2 = $.find('h2').first()
+        f.addIf(h2, "item.title")
+        f.mapRichField(h2, "item.title")
+
         let figcaption = $.find('figcaption').first()
         f.addIf(figcaption, "item.text")
         f.mapRichField(figcaption, "item.text")

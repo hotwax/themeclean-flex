@@ -124,6 +124,13 @@
           "model": "slidelink"
         },
         {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "title",
+          "label": "Image Title",
+          "model": "title"
+        },
+        {
           "type": "texteditor",
           "rows": 10,
           "placeholder": "text",

@@ -70,6 +70,13 @@
           "x-form-min": 1,
           "x-form-max": 6
         },
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-visible": "model.showtext == 'true'",
+          "x-form-type": "text"
+        },
         "cards": {
           "type": "string",
           "x-source": "inject",

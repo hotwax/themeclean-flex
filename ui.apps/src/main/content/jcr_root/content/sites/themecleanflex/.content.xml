@@ -33,4 +33,15 @@
             </serviceworker.js>
         </replacements>
     </jcr:content>
+    <library/>
+
+    <robots.txt/>
+    <manifest.json/>
+    <serviceworker.js/>
+    <css/>
+    <about-us/>
+    <returns-policy/>
+    <contact/>
+    <size-guide/>
+    <privacy/>
 </jcr:root>

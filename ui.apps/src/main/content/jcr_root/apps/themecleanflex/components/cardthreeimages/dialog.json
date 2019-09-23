@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "title",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "title",
+          "label": "Card Title",
+          "model": "title"
+        },
+        {
+          "type": "texteditor",
+          "rows": 10,
+          "placeholder": "text",
+          "label": "Card Text",
+          "model": "text"
+        },
+        {
+          "type": "pathbrowser",
+          "browserRoot": "/content/assets",
+          "placeholder": "image",
+          "label": "Card Image",
+          "model": "image"
+        }
+      ],
+      "placeholder": "cards",
+      "label": "Cards",
+      "model": "cards"
+    }
+  ]
+}

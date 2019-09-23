@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Cardthreeimages" group="">
+  <jcr:content jcr:primaryType="nt:unstructured">
+    <cards jcr:primaryType="nt:unstructured">
+      <cards0 jcr:primaryType="nt:unstructured" title="Card One" text="Lorem." image="/content/assets/themecleanflex/samples/organized-small.jpg"/>
+      <cards1 jcr:primaryType="nt:unstructured" title="Card Two" text="Lorem." image="/content/assets/themecleanflex/samples/organized-small.jpg"/>
+      <cards2 jcr:primaryType="nt:unstructured" title="Card Three" text="Lorem." image="/content/assets/themecleanflex/samples/organized-small.jpg"/>
+    </cards>
+  </jcr:content>
+</jcr:root>

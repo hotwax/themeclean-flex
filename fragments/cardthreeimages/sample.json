@@ -1,0 +1,27 @@
+{
+  "title": "Cardthreeimages",
+  "group": "",
+  "model": {
+    "cards": [
+      {
+        "title": "Card One",
+        "text": "Lorem.",
+        "image": "/content/assets/themecleanflex/samples/organized-small.jpg"
+
+
+      },
+      {
+        "title": "Card Two",
+        "text": "Lorem.",
+        "image": "/content/assets/themecleanflex/samples/organized-small.jpg"
+
+
+      },{
+        "title": "Card Three",
+        "text": "Lorem.",
+        "image": "/content/assets/themecleanflex/samples/organized-small.jpg"
+
+      }
+    ]
+  }
+}

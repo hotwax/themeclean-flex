@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:lastModified="{Date}2019-08-28T18:33:00.056+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="vuestorefront">
+    <ban1.jpg/>
+    <full_width_banner.jpg/>
+    <ig01.jpg/>
+    <ig02.jpg/>
+    <ig04.jpg/>
+    <ig03.jpg/>
+    <ig05.jpg/>
+    <ig06.jpg/>
+    <ban2.jpg/>
+    <ban3.jpg/>
+</jcr:root>

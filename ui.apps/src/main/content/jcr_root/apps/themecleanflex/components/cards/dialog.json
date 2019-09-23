@@ -84,6 +84,14 @@
       "max": 6
     },
     {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title",
+      "visible": "model.showtext == 'true'"
+    },
+    {
       "type": "collection",
       "multifield": true,
       "fieldLabel": [
