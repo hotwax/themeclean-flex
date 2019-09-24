@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Basic Text Block">
   <jcr:content jcr:primaryType="nt:unstructured" __variations="true">
-    <sample jcr:primaryType="nt:unstructured" title="Basic Text Block" group="Text Components">
+    <sample jcr:primaryType="nt:unstructured" title="Basic Text Block" group=".hidden">
       <jcr:content jcr:primaryType="nt:unstructured" text="Themeclean Basic Text Element" element="p"/>
     </sample>
-    <sample-blank jcr:primaryType="nt:unstructured" title="Simple Text (Empty)" group="Blank">
+    <sample-blank jcr:primaryType="nt:unstructured" title="Simple Text (Empty)" group=".hidden">
       <jcr:content jcr:primaryType="nt:unstructured" text=""/>
     </sample-blank>
-    <sample-h1 jcr:primaryType="nt:unstructured" title="Basic Heading 1" group="Text Components">
+    <sample-h1 jcr:primaryType="nt:unstructured" title="Basic Heading 1" group=".hidden">
       <jcr:content jcr:primaryType="nt:unstructured" text="Themeclean Heading" element="h1"/>
     </sample-h1>
-    <sample-h2 jcr:primaryType="nt:unstructured" title="Basic Heading 2" group="Text Components">
+    <sample-h2 jcr:primaryType="nt:unstructured" title="Basic Heading" group="Text Components">
       <jcr:content jcr:primaryType="nt:unstructured" text="Themeclean Secondary Heading" element="h2"/>
     </sample-h2>
   </jcr:content>
