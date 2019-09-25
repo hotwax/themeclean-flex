@@ -3,6 +3,7 @@
   "default": true,
   "group": "Text Components",
   "model": {
+    "title": "Lorem Ipsem",
     "text": "<p>lets go and write some content!</p>"
   }
 }

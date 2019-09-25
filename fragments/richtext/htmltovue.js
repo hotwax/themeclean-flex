@@ -2,6 +2,7 @@ module.exports = {
     convert: function($, f) {
     	f.wrap($, 'themecleanflex-components-block')
         f.bindAttribute($.parent(),'model','model')
+        f.mapRichField($.find('h2'), 'model.title')
         f.mapRichField( $.find('div').eq(1), 'model.text')
 
         //Content Container
