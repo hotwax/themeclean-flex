@@ -88,8 +88,7 @@
       "inputType": "text",
       "placeholder": "title",
       "label": "Title",
-      "model": "title",
-      "visible": "model.showtext == 'true'"
+      "model": "title"
     },
     {
       "type": "collection",

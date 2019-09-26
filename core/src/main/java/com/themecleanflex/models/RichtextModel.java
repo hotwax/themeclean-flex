@@ -21,6 +21,12 @@ import javax.inject.Named;
       "type": "object",
       "x-type": "component",
       "properties": {
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-type": "text"
+        },
         "text": {
           "type": "string",
           "x-source": "inject",
@@ -374,7 +380,11 @@ public class RichtextModel extends AbstractComponent {
     public RichtextModel(Resource r) { super(r); }
 
     //GEN[:INJECT
-    	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
+    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+	@Inject
+	private String title;
+
+	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
 	@Inject
 	private String text;
 
@@ -503,7 +513,12 @@ public class RichtextModel extends AbstractComponent {
 //GEN]
 
     //GEN[:GETTERS
-    	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
+    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+	public String getTitle() {
+		return title;
+	}
+
+	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
 	public String getText() {
 		return text;
 	}

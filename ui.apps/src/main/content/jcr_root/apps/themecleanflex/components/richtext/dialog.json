@@ -1,6 +1,13 @@
 {
   "fields": [
     {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
       "type": "texteditor",
       "rows": 10,
       "placeholder": "text",
