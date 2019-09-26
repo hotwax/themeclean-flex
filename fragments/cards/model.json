@@ -74,7 +74,6 @@
           "type": "string",
           "x-source": "inject",
           "x-form-label": "Title",
-          "x-form-visible": "model.showtext == 'true'",
           "x-form-type": "text"
         },
         "cards": {

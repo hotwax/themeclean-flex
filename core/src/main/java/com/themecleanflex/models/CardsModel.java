@@ -91,7 +91,6 @@ import javax.inject.Named;
           "type": "string",
           "x-source": "inject",
           "x-form-label": "Title",
-          "x-form-visible": "model.showtext == 'true'",
           "x-form-type": "text"
         },
         "cards": {
@@ -520,7 +519,7 @@ public class CardsModel extends AbstractComponent {
 	@Default(values ="1")
 	private String cardsperrowmobile;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-visible":"model.showtext == 'true'","x-form-type":"text"} */
+	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
 	@Inject
 	private String title;
 
@@ -666,7 +665,7 @@ public class CardsModel extends AbstractComponent {
 		return cardsperrowmobile;
 	}
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-visible":"model.showtext == 'true'","x-form-type":"text"} */
+	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
 	public String getTitle() {
 		return title;
 	}
