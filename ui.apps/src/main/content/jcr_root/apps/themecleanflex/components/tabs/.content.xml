@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Tabs">
   <jcr:content jcr:primaryType="nt:unstructured" __variations="true">
-    <sample jcr:primaryType="nt:unstructured" title="Tabs" group="Features">
+    <sample jcr:primaryType="nt:unstructured" title="Tabs" group=".hidden">
       <jcr:content jcr:primaryType="nt:unstructured" bgcolor="#ffffff" color2="#e7e7e7" fullheight="false" backgroundtype="gradient" bottompadding="40" toppadding="10" showmedia="false" mediatype="image" imagesrc="/content/assets/themecleanflex/samples/beach-clouds-daytime_small.jpg" mediaposition="before" mediawidth="33" mediaiconsize="200">
         <tabs jcr:primaryType="nt:unstructured">
           <tabs0 jcr:primaryType="nt:unstructured" text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>" title="Learn More"/>
