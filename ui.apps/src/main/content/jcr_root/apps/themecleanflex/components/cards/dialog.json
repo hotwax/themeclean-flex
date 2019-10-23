@@ -153,6 +153,14 @@
           "visible": "model.showbutton == 'true'"
         },
         {
+          "type": "inputlink",
+          "browserRoot": "/content/sites",
+          "internalLinkPlaceholder": "link",
+          "urlPlaceholder": "https://www.example.com",
+          "label": "Link",
+          "model": "link"
+        },
+        {
           "type": "material-select",
           "values": [
             {

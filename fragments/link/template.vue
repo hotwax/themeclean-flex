@@ -1,8 +1,6 @@
 <template>
   <div v-bind:data-per-path="model.path">
-    <div v-for="(item,i) in model.links" :key="i">
-      <a href v-html="href"></a>
-    </div>
+    <a v-bind:href="model.link"><p v-html="model.title"></p></a>
   </div>
 </template>
 

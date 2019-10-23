@@ -30,6 +30,13 @@
           "x-form-type": "materialswitch",
           "x-form-default": "false"
         },
+        "link": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Link",
+          "x-form-type": "inputlink",
+          "x-form-browserRoot": "/content/sites"
+        },
         "showtitle": {
           "type": "string",
           "x-source": "inject",

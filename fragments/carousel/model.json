@@ -102,11 +102,11 @@
                 }
               }
             },
-            "slidelink": {
+            "link": {
               "type": "string",
               "x-source": "inject",
-              "x-form-label": "Slide Link",
-              "x-form-type": "pathbrowser",
+              "x-form-label": "Link",
+              "x-form-type": "inputlink",
               "x-form-browserRoot": "/content/sites"
             },
             "title": {
