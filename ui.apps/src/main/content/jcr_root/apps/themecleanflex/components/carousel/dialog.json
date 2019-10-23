@@ -117,11 +117,12 @@
           "model": "imagefit"
         },
         {
-          "type": "pathbrowser",
+          "type": "inputlink",
           "browserRoot": "/content/sites",
-          "placeholder": "slidelink",
-          "label": "Slide Link",
-          "model": "slidelink"
+          "internalLinkPlaceholder": "link",
+          "urlPlaceholder": "https://www.example.com",
+          "label": "Link",
+          "model": "link"
         },
         {
           "type": "input",

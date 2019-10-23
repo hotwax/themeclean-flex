@@ -32,6 +32,14 @@
       "default": "false"
     },
     {
+      "type": "inputlink",
+      "browserRoot": "/content/sites",
+      "internalLinkPlaceholder": "link",
+      "urlPlaceholder": "https://www.example.com",
+      "label": "Link",
+      "model": "link"
+    },
+    {
       "type": "materialswitch",
       "textOn": "yes",
       "textOff": "no",

@@ -49,6 +49,13 @@ import javax.inject.Named;
           "x-form-type": "materialswitch",
           "x-form-default": "false"
         },
+        "link": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Link",
+          "x-form-type": "inputlink",
+          "x-form-browserRoot": "/content/sites"
+        },
         "showtitle": {
           "type": "string",
           "x-source": "inject",
@@ -567,6 +574,10 @@ public class TeaserverticalModel extends AbstractComponent {
 	@Inject
 	private String isprimary;
 
+	/* {"type":"string","x-source":"inject","x-form-label":"Link","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
+	@Inject
+	private String link;
+
 	/* {"type":"string","x-source":"inject","x-form-label":"Show Title","x-form-type":"materialswitch"} */
 	@Inject
 	private String showtitle;
@@ -747,6 +758,11 @@ public class TeaserverticalModel extends AbstractComponent {
 	/* {"type":"string","x-source":"inject","x-form-label":"Enlarge Text","x-form-type":"materialswitch","x-form-default":"false"} */
 	public String getIsprimary() {
 		return isprimary;
+	}
+
+	/* {"type":"string","x-source":"inject","x-form-label":"Link","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
+	public String getLink() {
+		return link;
 	}
 
 	/* {"type":"string","x-source":"inject","x-form-label":"Show Title","x-form-type":"materialswitch"} */
