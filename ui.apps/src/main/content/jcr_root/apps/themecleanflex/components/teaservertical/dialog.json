@@ -40,6 +40,13 @@
       "model": "link"
     },
     {
+      "type": "input",
+      "inputType": "hidden",
+      "placeholder": "",
+      "label": "",
+      "model": "linkType"
+    },
+    {
       "type": "materialswitch",
       "textOn": "yes",
       "textOff": "no",
