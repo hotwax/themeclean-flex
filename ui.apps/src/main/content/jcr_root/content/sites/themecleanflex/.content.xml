@@ -1,47 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          jcr:primaryType="per:Page"
-          jcr:title="themecleanflex"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
           jcr:description="themecleanflex Site Root"
->
+          jcr:primaryType="per:Page"
+          jcr:title="themecleanflex">
+    <index/>
+    <returns/>
     <jcr:content
-        jcr:primaryType="per:PageContent"
-        sling:resourceType="themecleanflex/components/page"
-        jcr:title="themecleanflex"
-        brand="themecleanflex"
-        template="/content/templates/themecleanflex">
+            jcr:primaryType="per:PageContent"
+            jcr:title="themecleanflex"
+            sling:resourceType="themecleanflex/components/page"
+            brand="themecleanflex"
+            template="/content/templates/themecleanflex">
         <replacements jcr:primaryType="nt:unstructured">
             <manifest.json jcr:primaryType="nt:unstructured">
                 <shortName
-                    jcr:primaryType="nt:unstructured"
-                    regex="\\&quot;short_name\\&quot;: \\&quot;(.*)\\&quot;"
-                    replaceWith="&quot;short_name&quot;: &quot;_SITENAME_&quot;"/>
+                        jcr:primaryType="nt:unstructured"
+                        regex="\\&quot;short_name\\&quot;: \\&quot;(.*)\\&quot;"
+                        replaceWith="&quot;short_name&quot;: &quot;_SITENAME_&quot;"/>
                 <name
-                    jcr:primaryType="nt:unstructured"
-                    regex="\\&quot;name\\&quot;: \\&quot;(.*)\\&quot;"
-                    replaceWith="&quot;name&quot;: &quot;_SITENAME_ site&quot;"/>
+                        jcr:primaryType="nt:unstructured"
+                        regex="\\&quot;name\\&quot;: \\&quot;(.*)\\&quot;"
+                        replaceWith="&quot;name&quot;: &quot;_SITENAME_ site&quot;"/>
                 <paths
-                    jcr:primaryType="nt:unstructured"
-                    regex="/themecleanflex"
-                    replaceWith="/_SITENAME_"/>
+                        jcr:primaryType="nt:unstructured"
+                        regex="/themecleanflex"
+                        replaceWith="/_SITENAME_"/>
             </manifest.json>
             <serviceworker.js jcr:primaryType="nt:unstructured">
                 <paths
-                    jcr:primaryType="nt:unstructured"
-                    regex="/themecleanflex"
-                    replaceWith="/_SITENAME_"/>
+                        jcr:primaryType="nt:unstructured"
+                        regex="/themecleanflex"
+                        replaceWith="/_SITENAME_"/>
             </serviceworker.js>
         </replacements>
     </jcr:content>
     <library/>
-
     <robots.txt/>
     <manifest.json/>
     <serviceworker.js/>
     <css/>
     <about-us/>
-    <returns-policy/>
+    <returns/>
     <contact/>
     <size-guide/>
     <privacy/>
+    <delivery/>
+    <customer-service/>
+    <legal/>
 </jcr:root>
