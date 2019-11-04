@@ -7,9 +7,9 @@
         jcr:lastModified="{Date}2019-09-26T18:16:23.896+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
-        jcr:title="returns-policy"
+        jcr:title="returns"
         sling:resourceType="themecleanflex/components/page"
-        name="returns-policy"
+        name="returns"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
         <nf20c062c-2280-4bba-8c7b-6f71db342a5e
