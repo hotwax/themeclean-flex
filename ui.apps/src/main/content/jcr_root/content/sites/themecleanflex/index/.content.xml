@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-05-06T21:14:05.790Z"
+    jcr:lastModified="{Date}2019-11-21T18:18:11.466+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-05-06T21:15:41.195Z"
+        jcr:lastModified="{Date}2019-11-21T18:18:11.466+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="nt:unstructured"
+        jcr:primaryType="per:PageContent"
         jcr:title="index"
         sling:resourceType="themecleanflex/components/page"
-        description="sample root page of the site"
+        description="Explore the top line collection by vuestorefront. "
         name="index"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -51,7 +51,7 @@
             subtitle=""
             text="&lt;p>A fashion can become the prevailing style in behaviour or manifest the &#xa;newest creations of designers, technologists, engineers, and design &#xa;managers.&#xa;&lt;/p>"
             textwidth="30"
-            title="Walk the walk."
+            title="Walk the walk"
             toppadding="30"
             videosrc="">
             <buttons jcr:primaryType="nt:unstructured"/>
@@ -289,5 +289,7 @@
                     path="/jcr:content/nf548ec11-1f30-4f02-b65c-1c4f1cdb6c83/buttons/buttons0"/>
             </buttons>
         </nf548ec11-1f30-4f02-b65c-1c4f1cdb6c83>
+        <metaproperties jcr:primaryType="nt:unstructured"/>
+        <tags jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
