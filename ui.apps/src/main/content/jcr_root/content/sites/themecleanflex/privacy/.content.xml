@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-09-26T18:17:51.184+05:30"
+    jcr:lastModified="{Date}2019-11-21T18:53:14.085+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-09-26T18:17:51.184+05:30"
+        jcr:lastModified="{Date}2019-11-21T18:53:14.085+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="privacy"
         sling:resourceType="themecleanflex/components/page"
+        description="Read more about our Privacy Policy which includes copyright and trademark information, disclaimer, data privacy etc."
         name="privacy"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -151,5 +152,18 @@
                     path="/jcr:content/n96c72063-ab97-4e1a-b130-60a3d8514b23/buttons/buttons0"/>
             </buttons>
         </n96c72063-ab97-4e1a-b130-60a3d8514b23>
+        <metaproperties jcr:primaryType="nt:unstructured"/>
+        <tags jcr:primaryType="nt:unstructured">
+            <Vue_x0020_soterfront_x0020_privacy_x0020_policy
+                jcr:lastModified="{Date}2019-11-21T18:53:14.081+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                value="/content/objects/tags/vuesoterfront privacy policy"/>
+            <privacy_x0020_policy_x0020_Vue_x0020_storefront
+                jcr:lastModified="{Date}2019-11-21T18:53:14.082+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                value="/content/objects/tags/privacy policy vuestorefront"/>
+        </tags>
     </jcr:content>
 </jcr:root>

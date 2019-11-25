@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-09-26T18:16:23.896+05:30"
+    jcr:lastModified="{Date}2019-11-21T18:29:12.038+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-09-26T18:16:23.896+05:30"
+        jcr:lastModified="{Date}2019-11-21T18:29:12.038+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="returns"
         sling:resourceType="themecleanflex/components/page"
+        description="Returns is a scheme provided by respective sellers directly under this policy in terms of which the option of exchange, replacement and/ or refund is offered by the respective sellers to you. All products listed under a particular category may not have the same returns policy."
         name="returns"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -175,5 +176,20 @@
                     path="/jcr:content/nf5ed95a8-5aaa-4a93-a02d-fa008ff77935/buttons/buttons0"/>
             </buttons>
         </nf5ed95a8-5aaa-4a93-a02d-fa008ff77935>
+        <metaproperties jcr:primaryType="nt:unstructured"/>
+        <tags jcr:primaryType="nt:unstructured">
+            <Returnpolicy_x0020_Store
+                jcr:lastModified="{Date}2019-11-21T18:29:12.035+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                name="Returnpolicy Store"
+                value="/content/objects/tags/Returnpolicy Store"/>
+            <Returnpolicy_x0020_Store_x0020_Online_x0020_Shopping
+                jcr:lastModified="{Date}2019-11-21T18:29:12.037+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                name="Returnpolicy Store Online Shopping"
+                value="/content/objects/tags/Returnpolicy Store Online Shopping"/>
+        </tags>
     </jcr:content>
 </jcr:root>

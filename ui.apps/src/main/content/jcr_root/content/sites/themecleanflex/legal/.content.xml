@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-11-04T14:04:15.095+05:30"
+    jcr:lastModified="{Date}2019-11-21T18:17:00.440+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-11-04T14:04:15.095+05:30"
+        jcr:lastModified="{Date}2019-11-21T18:17:00.440+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="legal"
         sling:resourceType="themecleanflex/components/page"
+        description="Find out more about our Terms of Use."
         name="legal"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -65,5 +66,7 @@
             text="&lt;p>This website (&quot;website&quot;) is operated by Luma Inc., which includes Luma &#xa;stores, and Luma Private Sales. This privacy policy only covers &#xa;information collected at this website, and does not cover any &#xa;information collected offline by Luma. All Luma websites are covered by &#xa;this privacy policy&lt;/p>"
             title=""
             videosrc=""/>
+        <metaproperties jcr:primaryType="nt:unstructured"/>
+        <tags jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

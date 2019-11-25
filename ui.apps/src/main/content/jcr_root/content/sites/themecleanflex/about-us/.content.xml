@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-08-31T18:33:19.641+05:30"
+    jcr:lastModified="{Date}2019-11-21T18:29:26.055+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-08-31T18:33:19.641+05:30"
+        jcr:lastModified="{Date}2019-11-21T18:29:26.055+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="about-us"
         sling:resourceType="themecleanflex/components/page"
+        description="About Us Online Store in India. Check About Us Prices, Ratings &amp; Reviews  Free Shipping Cash on Delivery Best Offers."
         name="about-us"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -105,5 +106,14 @@
                     path="/jcr:content/n272a9cc5-113c-4b70-bb4f-bf24745feb22/buttons/buttons0"/>
             </buttons>
         </n272a9cc5-113c-4b70-bb4f-bf24745feb22>
+        <metaproperties jcr:primaryType="nt:unstructured"/>
+        <tags jcr:primaryType="nt:unstructured">
+            <About_x0020_Us_x0020_Store
+                jcr:lastModified="{Date}2019-11-21T18:29:26.054+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                name="About Us Store"
+                value="/content/objects/tags/About Us Store"/>
+        </tags>
     </jcr:content>
 </jcr:root>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-09-26T18:16:46.152+05:30"
+    jcr:lastModified="{Date}2019-11-25T10:29:24.026+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-09-26T18:16:46.152+05:30"
+        jcr:lastModified="{Date}2019-11-25T10:29:24.026+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="contact"
         sling:resourceType="themecleanflex/components/page"
+        description="For any questions or inquiries related to purchasing. "
         name="contact"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -151,5 +152,29 @@
                     path="/jcr:content/nf7ef0589-75c9-48bc-a1f7-dbd258a006ea/buttons/buttons0"/>
             </buttons>
         </nf7ef0589-75c9-48bc-a1f7-dbd258a006ea>
+        <metaproperties jcr:primaryType="nt:unstructured"/>
+        <tags jcr:primaryType="nt:unstructured">
+            <contact_x0020_us
+                jcr:lastModified="{Date}2019-11-25T10:29:24.015+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                name="contact us"
+                path="/content/sites/themecleanflex/contact/jcr:content/tags/contact us"
+                value="/content/objects/tags/contact us"/>
+            <reach_x0020_us
+                jcr:lastModified="{Date}2019-11-25T10:29:24.018+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                name="reach us"
+                path="/content/sites/themecleanflex/contact/jcr:content/tags/reach us"
+                value="/content/objects/tags/reach us"/>
+            <store_x0020_locator
+                jcr:lastModified="{Date}2019-11-25T10:29:24.021+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                name="store locator"
+                path="/content/sites/themecleanflex/contact/jcr:content/tags/store locator"
+                value="/content/objects/tags/store locator"/>
+        </tags>
     </jcr:content>
 </jcr:root>
