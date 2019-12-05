@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-11-21T18:47:56.660+05:30"
+    jcr:lastModified="{Date}2019-09-26T18:17:21.357+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-11-21T18:47:56.660+05:30"
+        jcr:lastModified="{Date}2019-09-26T18:17:21.357+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="size-guide"
         sling:resourceType="themecleanflex/components/page"
-        description="Find your perfect size."
         name="size-guide"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -176,7 +175,5 @@
                     path="/jcr:content/n4e02a3ea-bb86-4ce9-a141-8d5c36a050a0/buttons/buttons0"/>
             </buttons>
         </n4e02a3ea-bb86-4ce9-a141-8d5c36a050a0>
-        <metaproperties jcr:primaryType="nt:unstructured"/>
-        <tags jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
