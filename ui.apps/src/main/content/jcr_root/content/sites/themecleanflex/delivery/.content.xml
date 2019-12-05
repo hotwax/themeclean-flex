@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-11-21T18:54:00.854+05:30"
+    jcr:lastModified="{Date}2019-11-04T12:17:24.422+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-11-21T18:54:00.854+05:30"
+        jcr:lastModified="{Date}2019-11-04T12:17:24.422+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="delivery"
         sling:resourceType="themecleanflex/components/page"
-        description="Know about the shipping details which are shipped from our warehouse."
         name="delivery"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -138,13 +137,5 @@
                     path="/jcr:content/n09f2f364-1dcd-49c6-8fe9-f304f3c79ed7/buttons/buttons1"/>
             </buttons>
         </n09f2f364-1dcd-49c6-8fe9-f304f3c79ed7>
-        <metaproperties jcr:primaryType="nt:unstructured"/>
-        <tags jcr:primaryType="nt:unstructured">
-            <Vue_x0020_storefront_x0020_shipping_x0020_details
-                jcr:lastModified="{Date}2019-11-21T18:54:00.853+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                value="/content/objects/tags/vuestorefront shipping details"/>
-        </tags>
     </jcr:content>
 </jcr:root>

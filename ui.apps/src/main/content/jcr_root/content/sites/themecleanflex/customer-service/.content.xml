@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2019-11-21T18:23:50.990+05:30"
+    jcr:lastModified="{Date}2019-11-04T12:20:45.432+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2019-11-21T18:23:50.990+05:30"
+        jcr:lastModified="{Date}2019-11-04T12:20:45.432+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="customer-service"
         sling:resourceType="themecleanflex/components/page"
-        description="Reach us to frequently asked question which can help you to get clarity on all your questions."
         name="customer-service"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
@@ -138,15 +137,5 @@
                     path="/jcr:content/nb20152d4-aaa2-46e3-847d-f2ba1ed9fd7a/buttons/buttons1"/>
             </buttons>
         </nb20152d4-aaa2-46e3-847d-f2ba1ed9fd7a>
-        <metaproperties jcr:primaryType="nt:unstructured"/>
-        <tags jcr:primaryType="nt:unstructured">
-            <Faq
-                jcr:lastModified="{Date}2019-11-21T18:23:50.989+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                name="Faq"
-                path="/content/sites/themecleanflex/customer-service/jcr:content/tags/Faq"
-                value="/content/objects/tags/Faq"/>
-        </tags>
     </jcr:content>
 </jcr:root>
