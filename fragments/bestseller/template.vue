@@ -2,7 +2,7 @@
   <themecleanflex-components-block v-bind:model="model">
     <div>
       <h3>{{model.title}}</h3>
-      <p>Products in the New Arrival category will be shown here.</p>
+      <p>Products in the Best Seller category will be shown here.</p>
     </div>
   </themecleanflex-components-block>
 </template>
