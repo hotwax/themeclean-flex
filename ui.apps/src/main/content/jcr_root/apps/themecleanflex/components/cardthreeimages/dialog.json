@@ -43,6 +43,13 @@
           "placeholder": "",
           "label": "",
           "model": "linkType"
+        },
+        {
+          "type": "input",
+          "inputType": "hidden",
+          "placeholder": "",
+          "label": "",
+          "model": "imageLinkType"
         }
       ],
       "placeholder": "cards",

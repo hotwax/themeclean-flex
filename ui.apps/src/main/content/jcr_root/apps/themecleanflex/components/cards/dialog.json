@@ -168,6 +168,13 @@
           "model": "linkType"
         },
         {
+          "type": "input",
+          "inputType": "hidden",
+          "placeholder": "",
+          "label": "",
+          "model": "imageLinkType"
+        },
+        {
           "type": "material-select",
           "values": [
             {

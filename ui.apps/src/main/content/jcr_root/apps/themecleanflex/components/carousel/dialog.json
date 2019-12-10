@@ -133,6 +133,13 @@
         },
         {
           "type": "input",
+          "inputType": "hidden",
+          "placeholder": "",
+          "label": "",
+          "model": "imageLinkType"
+        },
+        {
+          "type": "input",
           "inputType": "text",
           "placeholder": "title",
           "label": "Image Title",

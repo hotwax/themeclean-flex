@@ -47,6 +47,13 @@
       "model": "linkType"
     },
     {
+      "type": "input",
+      "inputType": "hidden",
+      "placeholder": "",
+      "label": "",
+      "model": "imageLinkType"
+    },
+    {
       "type": "materialswitch",
       "textOn": "yes",
       "textOff": "no",
