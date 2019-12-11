@@ -128,7 +128,7 @@
             showcard="false"
             showtext="false"
             showtitle="false"
-            title="Get inpsired"
+            title="Get inspired"
             toppadding="20">
             <cards jcr:primaryType="nt:unstructured">
                 <cards0
