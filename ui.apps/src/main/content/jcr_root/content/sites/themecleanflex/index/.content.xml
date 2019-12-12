@@ -241,53 +241,5 @@
                     title=""/>
             </cards>
         </n4256cf4d-c2f6-4882-aefa-d4f26981ab5c>
-        <nf548ec11-1f30-4f02-b65c-1c4f1cdb6c83
-            jcr:lastModified="{Date}2019-08-31T18:24:17.876+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecleanflex/components/teaserhorizontal"
-            aligncontent="left"
-            backgroundtype="color"
-            bgcolor="#ffffff"
-            bgsize="cover"
-            bgvideo=""
-            bgxposition="50"
-            bgyposition="50"
-            blockwidth="default"
-            bottompadding="30"
-            buttonside="right"
-            buttonsize="default"
-            color2="#c0c0c0"
-            colorscheme="light"
-            custombackground="false"
-            fullheight="false"
-            gradient="true"
-            htmlelement="section"
-            isprimary="false"
-            overlaycolor="#ffffff"
-            overlayopacity="50"
-            showbutton="true"
-            showsubtitle="false"
-            showtext="true"
-            showtitle="false"
-            subtitle=""
-            text="Subscribe to the newsletter and receive a coupon for 10% off"
-            textwidth="60"
-            title=""
-            toppadding="30">
-            <buttons jcr:primaryType="nt:unstructured">
-                <buttons0
-                    jcr:lastModified="{Date}2019-08-31T18:24:17.875+05:30"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    buttoncolor="secondary"
-                    buttonlink="/content/sites/themeclean"
-                    buttontext="Subscribe"
-                    component="nt:unstructured"
-                    iconclass=""
-                    name="buttons0"
-                    path="/jcr:content/nf548ec11-1f30-4f02-b65c-1c4f1cdb6c83/buttons/buttons0"/>
-            </buttons>
-        </nf548ec11-1f30-4f02-b65c-1c4f1cdb6c83>
     </jcr:content>
 </jcr:root>
