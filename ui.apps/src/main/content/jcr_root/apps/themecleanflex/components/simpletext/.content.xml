@@ -10,7 +10,7 @@
     <sample-h1 jcr:primaryType="nt:unstructured" title="Basic Heading 1" group=".hidden">
       <jcr:content jcr:primaryType="nt:unstructured" text="Themeclean Heading" element="h1"/>
     </sample-h1>
-    <sample-h2 jcr:primaryType="nt:unstructured" title="Basic Heading" group="Text Components">
+    <sample-h2 jcr:primaryType="nt:unstructured" title="Basic Heading" group=".hidden">
       <jcr:content jcr:primaryType="nt:unstructured" text="Themeclean Secondary Heading" element="h2"/>
     </sample-h2>
   </jcr:content>
