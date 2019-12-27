@@ -3,7 +3,7 @@ module.exports = {
         f.wrap($, 'themecleanflex-components-block')
         f.bindAttribute($.parent(),'model','model')
 
-        //Columns
+        // Columns
         let col = $.find('.footer-col').first()
         let coltitle = col.find('h1').first()
         let colcontent = col.find('div').first()
@@ -13,10 +13,10 @@ module.exports = {
         f.addIf( colcontent, "item.text !== ''")
         f.mapRichField( colcontent, "item.text")
 
-        //Copyright
+         // Copyright
         f.mapRichField($.find('p').eq(0), "model.copyright")
 
-        //Social Icons
+        // Social Icons
         let a = $.find('a').first()
         f.addFor( a, 'model.icons')
         f.bindAttribute( a, 'href', f.pathToUrl('item.url'))
