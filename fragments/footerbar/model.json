@@ -1,0 +1,63 @@
+{
+  "definitions": {
+    "Footerbar": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "columns": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Columns",
+          "x-form-type": "collection",
+          "x-form-multifield": "true",
+          "properties": {
+            "title": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Title",
+              "x-form-type": "text"
+            },
+            "text": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Text",
+              "x-form-type": "texteditor"
+            }
+          }
+        },
+        "copyright": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Copyright Text",
+          "x-form-type": "text"
+        },
+        "icons": {
+          "type": "object",
+          "x-form-type": "collection",
+          "x-form-label": "Icons",
+          "x-source": "inject",
+          "properties": {
+            "icon": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Icon Name",
+              "x-form-type": "text"
+            },
+            "url": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "URL",
+              "x-form-type": "url"
+            },
+            "iconalttext": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Icon Alt Text",
+              "x-form-type": "text"
+            }
+          }
+        }
+      }
+    }
+  }
+}

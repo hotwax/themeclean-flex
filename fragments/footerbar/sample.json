@@ -1,0 +1,48 @@
+{
+  "title": "Footer Bar",
+  "group": "",
+  "model": {
+    "copyright": "Copyright &copy 2019 HotWax Commerce - All Rights Reserved",
+    "columns": [
+      {
+        "title": "Orders",
+        "text": "<p><a href=\"/my-account\">My account</a><br><a href=\"/returns\">Return policy</a></p>"
+      },
+      {
+        "title": "Help",
+        "text": "<p><a href=\"/size-guide\">Size guide</a><br><a href=\"/contact\">Contact us</a></p>"
+      },
+      {
+        "title": "About us",
+        "text": "<p><a href=\"/about-us\">About us</a></p>"
+      }
+    ],
+    "icons": [
+      {
+        "url": "",
+        "icon": "facebook",
+        "iconalttext": "Facebook"
+      },
+      {
+        "url": "",
+        "icon": "twitter",
+        "iconalttext": "Twitter"
+      },
+      {
+        "url": "",
+        "icon": "instagram",
+        "iconalttext": "Instagram"
+      },
+      {
+        "url": "",
+        "icon": "pinterest",
+        "iconalttext": "Pinterest"
+      },
+      {
+        "url": "",
+        "icon": "youtube",
+        "iconalttext": "Youtube"
+      }
+    ]
+  }
+}

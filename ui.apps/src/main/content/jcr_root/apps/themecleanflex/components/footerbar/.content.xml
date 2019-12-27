@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Footer Bar" group="">
+  <jcr:content jcr:primaryType="nt:unstructured" copyright="Copyright &amp;copy 2019 HotWax Commerce - All Rights Reserved">
+    <columns jcr:primaryType="nt:unstructured">
+      <columns0 jcr:primaryType="nt:unstructured" title="Orders" text="&lt;p>&lt;a href=&quot;/my-account&quot;>My account&lt;/a>&lt;br>&lt;a href=&quot;/returns&quot;>Return policy&lt;/a>&lt;/p>"/>
+      <columns1 jcr:primaryType="nt:unstructured" title="Help" text="&lt;p>&lt;a href=&quot;/size-guide&quot;>Size guide&lt;/a>&lt;br>&lt;a href=&quot;/contact&quot;>Contact us&lt;/a>&lt;/p>"/>
+      <columns2 jcr:primaryType="nt:unstructured" title="About us" text="&lt;p>&lt;a href=&quot;/about-us&quot;>About us&lt;/a>&lt;/p>"/>
+    </columns>
+    <icons jcr:primaryType="nt:unstructured">
+      <icons0 jcr:primaryType="nt:unstructured" url="" icon="facebook" iconalttext="Facebook"/>
+      <icons1 jcr:primaryType="nt:unstructured" url="" icon="twitter" iconalttext="Twitter"/>
+      <icons2 jcr:primaryType="nt:unstructured" url="" icon="instagram" iconalttext="Instagram"/>
+      <icons3 jcr:primaryType="nt:unstructured" url="" icon="pinterest" iconalttext="Pinterest"/>
+      <icons4 jcr:primaryType="nt:unstructured" url="" icon="youtube" iconalttext="Youtube"/>
+    </icons>
+  </jcr:content>
+</jcr:root>

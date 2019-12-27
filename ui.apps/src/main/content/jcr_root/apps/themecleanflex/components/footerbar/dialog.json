@@ -1,0 +1,72 @@
+{
+  "fields": [
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "title",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "title",
+          "label": "Title",
+          "model": "title"
+        },
+        {
+          "type": "texteditor",
+          "rows": 10,
+          "placeholder": "text",
+          "label": "Text",
+          "model": "text"
+        }
+      ],
+      "placeholder": "columns",
+      "label": "Columns",
+      "model": "columns"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "copyright",
+      "label": "Copyright Text",
+      "model": "copyright"
+    },
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "icon",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "icon",
+          "label": "Icon Name",
+          "model": "icon"
+        },
+        {
+          "type": "input",
+          "inputType": "url",
+          "placeholder": "url",
+          "label": "URL",
+          "model": "url"
+        },
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "iconalttext",
+          "label": "Icon Alt Text",
+          "model": "iconalttext"
+        }
+      ],
+      "placeholder": "icons",
+      "label": "Icons",
+      "model": "icons"
+    }
+  ]
+}
