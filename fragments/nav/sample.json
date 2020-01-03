@@ -1,0 +1,21 @@
+{
+  "title": "Navigation",
+  "group": "",
+  "model": {
+    "title": "nav",
+    "nav_item": [
+      {
+        "title": "nav_item0",
+        "url": ""
+      },
+      {
+        "title": "nav_item1",
+        "url": ""
+      },
+      {
+        "title": "nav_item2",
+        "url": ""
+      }
+    ]
+  }
+}
