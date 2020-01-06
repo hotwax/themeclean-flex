@@ -1,0 +1,38 @@
+{
+  "definitions": {
+    "Nav": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-type": "text"
+        },
+        "nav_item": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Nav Item",
+          "x-form-fieldLabel": "title",
+          "x-form-type": "collection",
+          "properties": {
+            "title": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Title",
+              "x-form-type": "text"
+            },
+            "url": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "URl",
+              "x-form-type": "pathbrowser",
+              "x-form-browserRoot": "/content/sites"
+            }
+          }
+        }
+      }
+    }
+  }
+}

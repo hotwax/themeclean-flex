@@ -1,0 +1,46 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "title",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "title",
+          "label": "Title",
+          "model": "title"
+        },
+        {
+          "type": "inputlink",
+          "browserRoot": "/content/sites",
+          "internalLinkPlaceholder": "link",
+          "urlPlaceholder": "https://www.example.com",
+          "label": "Link",
+          "model": "url"
+        },
+        {
+          "type": "input",
+          "inputType": "hidden",
+          "placeholder": "",
+          "label": "",
+          "model": "linkType"
+        }
+      ],
+      "placeholder": "nav_item",
+      "label": "Nav Item",
+      "model": "nav_item"
+    }
+  ]
+}
