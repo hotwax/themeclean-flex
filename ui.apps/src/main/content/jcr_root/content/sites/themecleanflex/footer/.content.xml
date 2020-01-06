@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-01-06T15:15:55.503+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-01-06T15:15:55.503+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="footer"
+        sling:resourceType="themecleanflex/components/page"
+        name="footer"
+        template="/content/templates/themecleanflex"
+        templatePath="/content/templates/themecleanflex">
+        <n2929af9f-5940-45c7-b11f-02b2d326bb57
+            jcr:lastModified="{Date}2020-01-06T15:15:27.288+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecleanflex/components/nav"
+            title="Orders">
+            <nav_item jcr:primaryType="nt:unstructured">
+                <nav_item0
+                    jcr:lastModified="{Date}2020-01-06T15:15:27.286+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    linkType="internalLink"
+                    name="nav_item0"
+                    path="/jcr:content/n2929af9f-5940-45c7-b11f-02b2d326bb57/nav_item/nav_item0"
+                    title="My Account"
+                    url="/my-account"/>
+                <nav_item1
+                    jcr:lastModified="{Date}2020-01-06T15:15:27.288+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    linkType="internalLink"
+                    name="nav_item1"
+                    path="/jcr:content/n2929af9f-5940-45c7-b11f-02b2d326bb57/nav_item/nav_item1"
+                    title="Return Policy"
+                    url="/content/sites/vuestorefront/returns"/>
+            </nav_item>
+        </n2929af9f-5940-45c7-b11f-02b2d326bb57>
+        <nfa876a9f-fd9a-4a0b-a5d3-659860ab830b
+            jcr:lastModified="{Date}2020-01-06T15:15:44.662+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecleanflex/components/nav"
+            title="Help">
+            <nav_item jcr:primaryType="nt:unstructured">
+                <nav_item0
+                    jcr:lastModified="{Date}2020-01-06T15:15:44.658+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    linkType="internalLink"
+                    name="nav_item0"
+                    path="/jcr:content/nfa876a9f-fd9a-4a0b-a5d3-659860ab830b/nav_item/nav_item0"
+                    title="Size guide"
+                    url="/content/sites/vuestorefront/size-guide"/>
+                <nav_item1
+                    jcr:lastModified="{Date}2020-01-06T15:15:44.659+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    linkType="internalLink"
+                    name="nav_item1"
+                    path="/jcr:content/nfa876a9f-fd9a-4a0b-a5d3-659860ab830b/nav_item/nav_item1"
+                    title="Contact us"
+                    url="/content/sites/vuestorefront/contact"/>
+            </nav_item>
+        </nfa876a9f-fd9a-4a0b-a5d3-659860ab830b>
+        <n5180217a-1c9c-417f-956a-cbf7d1686d63
+            jcr:lastModified="{Date}2020-01-06T15:15:50.658+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecleanflex/components/nav"
+            title="About us">
+            <nav_item jcr:primaryType="nt:unstructured">
+                <nav_item0
+                    jcr:lastModified="{Date}2020-01-06T15:15:50.657+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    linkType="internalLink"
+                    name="nav_item0"
+                    path="/jcr:content/n5180217a-1c9c-417f-956a-cbf7d1686d63/nav_item/nav_item0"
+                    title="About us"
+                    url="/content/sites/vuestorefront/about-us"/>
+            </nav_item>
+        </n5180217a-1c9c-417f-956a-cbf7d1686d63>
+        <nddd36965-57dc-4794-a736-dd1dacd0a070
+            jcr:lastModified="{Date}2020-01-06T15:15:55.503+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecleanflex/components/sociallinks">
+            <icons jcr:primaryType="nt:unstructured">
+                <icons0
+                    jcr:lastModified="{Date}2020-01-06T15:15:55.500+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    icon="facebook"
+                    name="icons0"
+                    path="/jcr:content/nddd36965-57dc-4794-a736-dd1dacd0a070/icons/icons0"
+                    url="https://www.facebook.com/"/>
+                <icons1
+                    jcr:lastModified="{Date}2020-01-06T15:15:55.501+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    icon="twitter"
+                    name="icons1"
+                    path="/jcr:content/nddd36965-57dc-4794-a736-dd1dacd0a070/icons/icons1"
+                    url="https://twitter.com/"/>
+                <icons2
+                    jcr:lastModified="{Date}2020-01-06T15:15:55.502+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    icon="instagram"
+                    name="icons2"
+                    path="/jcr:content/nddd36965-57dc-4794-a736-dd1dacd0a070/icons/icons2"
+                    url="https://www.instagram.com/"/>
+                <icons3
+                    jcr:lastModified="{Date}2020-01-06T15:15:55.502+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    icon="pinterest"
+                    name="icons3"
+                    path="/jcr:content/nddd36965-57dc-4794-a736-dd1dacd0a070/icons/icons3"
+                    url="https://www.pinterest.com/"/>
+                <icons4
+                    jcr:lastModified="{Date}2020-01-06T15:15:55.503+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    icon="youtube"
+                    name="icons4"
+                    path="/jcr:content/nddd36965-57dc-4794-a736-dd1dacd0a070/icons/icons4"
+                    url="https://www.youtube.com/"/>
+            </icons>
+        </nddd36965-57dc-4794-a736-dd1dacd0a070>
+        <n2b37f642-89d0-4dd3-9418-102ae0eb32db
+            jcr:lastModified="{Date}2020-01-06T15:15:01.249+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecleanflex/components/copyright"
+            text="Copyright &amp;copy HotWax Commerce. All rights reserved."/>
+    </jcr:content>
+</jcr:root>
