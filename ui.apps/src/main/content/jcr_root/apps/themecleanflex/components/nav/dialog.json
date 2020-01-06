@@ -27,7 +27,7 @@
           "browserRoot": "/content/sites",
           "internalLinkPlaceholder": "link",
           "urlPlaceholder": "https://www.example.com",
-          "label": "URL",
+          "label": "Link",
           "model": "url"
         },
         {

@@ -2,18 +2,18 @@
   "title": "Navigation",
   "group": "",
   "model": {
-    "title": "nav",
+    "title": "Navigation Title",
     "nav_item": [
       {
-        "title": "nav_item0",
+        "title": "Nav Item",
         "url": ""
       },
       {
-        "title": "nav_item1",
+        "title": "Nav Item",
         "url": ""
       },
       {
-        "title": "nav_item2",
+        "title": "Nav Item",
         "url": ""
       }
     ]

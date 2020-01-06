@@ -43,9 +43,8 @@ import javax.inject.Named;
             "url": {
               "type": "string",
               "x-source": "inject",
-              "x-form-label": "URl",
-              "x-form-type": "pathbrowser",
-              "x-form-browserRoot": "/content/sites"
+              "x-form-label": "URL",
+              "x-form-type": "url"
             }
           }
         }
@@ -83,7 +82,7 @@ public class NavModel extends AbstractComponent {
 	@Inject
 	private String title;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Nav Item","x-form-fieldLabel":"title","x-form-type":"collection","properties":{"title":{"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"},"url":{"type":"string","x-source":"inject","x-form-label":"URl","x-form-type":"pathbrowser","x-form-browserRoot":"/content/sites"}}} */
+	/* {"type":"string","x-source":"inject","x-form-label":"Nav Item","x-form-fieldLabel":"title","x-form-type":"collection","properties":{"title":{"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"},"url":{"type":"string","x-source":"inject","x-form-label":"URL","x-form-type":"url"}}} */
 	@Inject
 	private List<IComponent> nav_item;
 
@@ -96,7 +95,7 @@ public class NavModel extends AbstractComponent {
 		return title;
 	}
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Nav Item","x-form-fieldLabel":"title","x-form-type":"collection","properties":{"title":{"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"},"url":{"type":"string","x-source":"inject","x-form-label":"URl","x-form-type":"pathbrowser","x-form-browserRoot":"/content/sites"}}} */
+	/* {"type":"string","x-source":"inject","x-form-label":"Nav Item","x-form-fieldLabel":"title","x-form-type":"collection","properties":{"title":{"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"},"url":{"type":"string","x-source":"inject","x-form-label":"URL","x-form-type":"url"}}} */
 	public List<IComponent> getNav_item() {
 		return nav_item;
 	}
