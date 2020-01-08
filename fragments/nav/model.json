@@ -1,0 +1,23 @@
+{
+  "definitions": {
+    "Nav": {
+      "type": "object",
+      "x-type": "container",
+      "properties": {
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-type": "text"
+        },
+        "link": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "link",
+          "x-form-type": "pathbrowser",
+          "x-form-browserRoot": "/context/sites"
+        }
+      }
+    }
+  }
+}

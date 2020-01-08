@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "inputlink",
+      "browserRoot": "/content/sites",
+      "internalLinkPlaceholder": "link",
+      "urlPlaceholder": "https://www.example.com",
+      "label": "Link",
+      "model": "link"
+    },
+    {
+      "type": "input",
+      "inputType": "hidden",
+      "placeholder": "",
+      "label": "",
+      "model": "linkType"
+    }
+  ]
+}
