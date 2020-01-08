@@ -89,7 +89,9 @@ public class NavModel extends Container {
 		return link;
 	}
 
-	public String getLinkType(){ return linkType; }
+	public String getLinkType() {
+		return linkType;
+	}
 
 
 //GEN]
