@@ -1,0 +1,62 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "inputlink",
+      "browserRoot": "/content/sites",
+      "placeholder": "link",
+      "label": "Link",
+      "model": "link",
+      "internalLinkPlaceholder": "Link",
+      "urlPlaceholder": "URL"
+    },
+    {
+      "type": "pathbrowser",
+      "browserRoot": "/content/assets",
+      "placeholder": "image",
+      "label": "Image",
+      "model": "image"
+    },
+    {
+      "type": "texteditor",
+      "rows": 10,
+      "placeholder": "text",
+      "label": "Text",
+      "model": "text"
+    },
+    {
+      "type": "materialswitch",
+      "textOn": "yes",
+      "textOff": "no",
+      "valueOn": "true",
+      "valueOff": "false",
+      "placeholder": "showbutton",
+      "label": "Show Button",
+      "model": "showbutton"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "buttontext",
+      "label": "Button Text",
+      "model": "buttontext",
+      "visible": "model.showbutton == 'true'"
+    },
+    {
+      "type": "buttonlinkfield",
+      "browserRoot": "/content/sites",
+      "placeholder": "link",
+      "label": "Button Link",
+      "model": "buttonlink",
+      "visible": "model.showbutton == 'true'",
+      "internalLinkPlaceholder": "Link",
+      "urlPlaceholder": "URL"
+    }
+  ]
+}
