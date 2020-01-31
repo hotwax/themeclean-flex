@@ -1,0 +1,10 @@
+{
+  "title": "Banner Right",
+  "group": "Banner",
+  "model": {
+    "title": "ECO SANDALS",
+    "text": "The collection features formal and casual comfort shoes with a Danish design focus. Made from premium leathers and comfort.",
+    "image": "/content/assets/themecleanflex/vuestorefront/Banner3.png",
+    "buttontext": "View"
+  }
+}

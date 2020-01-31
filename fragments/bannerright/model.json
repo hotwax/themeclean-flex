@@ -1,0 +1,72 @@
+{
+  "definitions": {
+    "Bannerright": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-type": "text"
+        },
+        "bgref": {
+          "$ref": "fragments/backgroundimage/model.json#/definitions/Backgroundimage",
+          "x-form-type": "reference"
+        },
+        "link": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Link",
+          "x-form-internalLinkPlaceholder": "Link",
+          "x-form-urlPlaceholder": "URL",
+          "x-form-type": "inputlink",
+          "x-form-browserRoot": "/content/sites"
+        },
+        "text": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Text",
+          "x-form-type": "texteditor"
+        },
+        "showbutton": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Show Button",
+          "x-form-type": "materialswitch"
+        },
+        "buttontext": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Button Text",
+          "x-form-visible": "model.showbutton == 'true'",
+          "x-form-type": "text"
+        },
+        "buttonlink": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Button Link",
+          "x-form-internalLinkPlaceholder": "Link",
+          "x-form-urlPlaceholder": "URL",
+          "x-form-visible": "model.showbutton == 'true'",
+          "x-form-type": "inputlink",
+          "x-form-browserRoot": "/content/sites"
+        },
+        "linkType":{
+          "type": "string",
+          "x-source": "inject",
+          "x-default": "internalLink",
+          "x-form-visible": "false",
+          "x-form-type": "text"
+        },
+        "imageLinkType":{
+          "type": "string",
+          "x-source": "inject",
+          "x-default": "internalLink",
+          "x-form-visible": "false",
+          "x-form-type": "text"
+        }
+      }
+    }
+  }
+}
