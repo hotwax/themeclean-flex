@@ -1,0 +1,26 @@
+{
+  "title": "T Grid",
+  "group": "Banner",
+  "model": {
+    "cards": [
+      {
+        "buttontext": "BUTTON",
+        "image": "/content/assets/themecleanflex/vuestorefront/image3.png",
+        "text": "Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses and party dresses from all your favorite brands.",
+        "title": "COCKTAIL & PARTY"
+      },
+      {
+        "buttontext": "BUTTON",
+        "image": "/content/assets/themecleanflex/vuestorefront/image2.png",
+        "text": "",
+        "title": "THE OFFICE LIFE"
+      },
+      {
+        "buttontext": "BUTTON",
+        "image": "/content/assets/themecleanflex/vuestorefront/image5.1.png",
+        "text": "",
+        "title": "ECO SANDALS"
+      }
+    ]
+  }
+}
