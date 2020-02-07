@@ -1,0 +1,92 @@
+{
+  "fields": [
+    {
+      "type": "materialswitch",
+      "textOn": "yes",
+      "textOff": "no",
+      "valueOn": "true",
+      "valueOff": "false",
+      "placeholder": "showbutton",
+      "label": "Show Card Button",
+      "model": "showbutton"
+    },
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "title",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "title",
+          "label": "Card Title",
+          "model": "title"
+        },
+        {
+          "type": "inputlink",
+          "browserRoot": "/content/sites",
+          "placeholder": "link",
+          "label": "Link",
+          "model": "link",
+          "internalLinkPlaceholder": "Link",
+          "urlPlaceholder": "URL"
+        },
+        {
+          "type": "pathbrowser",
+          "browserRoot": "/content/assets",
+          "placeholder": "image",
+          "label": "Card Image",
+          "model": "image"
+        },
+        {
+          "type": "texteditor",
+          "rows": 10,
+          "placeholder": "text",
+          "label": "Card Text",
+          "model": "text"
+        },
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "buttontext",
+          "label": "Button Text",
+          "model": "buttontext"
+        },
+        {
+          "type": "buttonlinkfield",
+          "browserRoot": "/content/sites",
+          "placeholder": "buttonlink",
+          "label": "Button Link",
+          "model": "buttonlink",
+          "visible": "model.showbutton == 'true'",
+          "internalLinkPlaceholder": "Link",
+          "urlPlaceholder": "URL"
+        },
+        {
+          "type": "input",
+          "inputType": "text",
+          "model": "linkType",
+          "visible": false
+        },
+        {
+          "type": "input",
+          "inputType": "text",
+          "model": "buttonLinkType",
+          "visible": false
+        },
+        {
+          "type": "input",
+          "inputType": "text",
+          "model": "imageLinkType",
+          "visible": false
+        }
+      ],
+      "placeholder": "cards",
+      "label": "Cards",
+      "model": "cards"
+    }
+  ]
+}
