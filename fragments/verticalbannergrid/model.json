@@ -1,0 +1,69 @@
+{
+  "definitions": {
+    "Verticalbannergrid": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "showbutton": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Show Card Button",
+          "x-form-type": "materialswitch"
+        },
+        "cards": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Cards",
+          "x-form-fieldLabel": "title",
+          "x-form-type": "collection",
+          "properties": {
+            "title": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Card Title",
+              "x-form-type": "text"
+            },
+            "link": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Link",
+              "x-form-internalLinkPlaceholder": "Link",
+              "x-form-urlPlaceholder": "URL",
+              "x-form-type": "inputlink",
+              "x-form-browserRoot": "/content/sites"
+            },
+            "image": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Card Image",
+              "x-form-type": "pathbrowser",
+              "x-form-browserRoot": "/content/assets"
+            },
+            "text": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Card Text",
+              "x-form-type": "texteditor"
+            },
+            "buttontext": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Button Text",
+              "x-form-type": "text"
+            },
+            "buttonlink": {
+              "type": "string",
+              "x-source": "inject",
+              "x-form-label": "Button Link",
+              "x-form-internalLinkPlaceholder": "Link",
+              "x-form-urlPlaceholder": "URL",
+              "x-form-visible": "model.showbutton == 'true'",
+              "x-form-type": "inputlink",
+              "x-form-browserRoot": "/content/sites"
+            }
+          }
+        }
+      }
+    }
+  }
+}
