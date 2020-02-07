@@ -1,0 +1,32 @@
+{
+  "title": "Vertical Banner Grid",
+  "group": "Banner",
+  "model": {
+    "cards": [
+      {
+        "buttontext": "Button",
+        "image": "/content/assets/themecleanflex/samples/organized-small.jpg",
+        "text": "Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.",
+        "title": "COCKTAIL & PARTY"
+      },
+      {
+        "buttontext": "Button",
+        "image": "/content/assets/themecleanflex/samples/boat-rope-hanging-knot_small.jpg",
+        "text": "Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands.",
+        "title": "LINEN DRESSES"
+      },
+      {
+        "buttontext": "Button",
+        "image": "/content/assets/themecleanflex/samples/close-up-cordage.jpg",
+        "text": "",
+        "title": "THE OFFICE LIFE"
+      },
+      {
+        "buttontext": "Button",
+        "image": "/content/assets/themecleanflex/samples/close-up-cordage.jpg",
+        "text": "",
+        "title": "ECO SANDALS"
+      }
+    ]
+  }
+}
