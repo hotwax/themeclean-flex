@@ -1,0 +1,18 @@
+{
+  "title": "Horizontal Twins",
+  "group": "Banner",
+  "model": {
+    "cards": [
+      {
+        "buttontext": "BUTTON",
+        "image": "/content/assets/themecleanflex/vuestorefront/image2.png",
+        "title": "THE OFFICE LIFE"
+      },
+      {
+        "buttontext": "BUTTON",
+        "image": "/content/assets/themecleanflex/vuestorefront/image5.1.png",
+        "title": "ECO SANDALS"
+      }
+    ]
+  }
+}
