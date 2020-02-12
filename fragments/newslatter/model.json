@@ -1,0 +1,44 @@
+{
+  "definitions": {
+    "Newslatter": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-type": "text"
+        },
+        "text": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Text",
+          "x-form-type": "texteditor"
+        },
+        "image": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Image",
+          "x-form-type": "pathbrowser",
+          "x-form-browserRoot": "/content/assets"
+        },
+        "buttontext": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Button text",
+          "x-form-type": "text"
+        },
+        "buttonlink": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Button Link",
+          "x-form-internalLinkPlaceholder": "Link",
+          "x-form-urlPlaceholder": "URL",
+          "x-form-type": "buttonlinkfield",
+          "x-form-browserRoot": "/content/sites"
+        }  
+      }
+    }
+  }
+}
