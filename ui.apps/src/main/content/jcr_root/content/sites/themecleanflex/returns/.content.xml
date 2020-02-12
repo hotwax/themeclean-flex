@@ -12,28 +12,6 @@
         name="returns"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
-        <nf20c062c-2280-4bba-8c7b-6f71db342a5e
-            jcr:lastModified="{Date}2019-09-12T14:06:48.744+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecleanflex/components/breadcrumb"
-            bgcolor="#ffffff"
-            bgsize="cover"
-            bgvideo=""
-            bgxposition="50"
-            bgyposition="50"
-            blockwidth="default"
-            bottompadding="10"
-            color2="#c0c0c0"
-            colorscheme="light"
-            custombackground="false"
-            fullheight="false"
-            htmlelement="section"
-            level="3"
-            linkcolor="primary"
-            overlaycolor="#ffffff"
-            overlayopacity="50"
-            toppadding="10"/>
         <nf458076f-1160-4077-bd00-4789ff05e73a
             jcr:lastModified="{Date}2019-09-12T14:07:38.509+05:30"
             jcr:lastModifiedBy="admin"

@@ -12,15 +12,6 @@
         name="legal"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
-        <n7432cc80-330a-464f-b9b9-4e989ff608f8
-            jcr:lastModified="{Date}2019-11-04T12:46:22.765+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecleanflex/components/breadcrumb"
-            bottompadding="10"
-            level="3"
-            linkcolor="primary"
-            toppadding="10"/>
         <n982edd87-ac61-4868-bf80-2b558ddeff93
             jcr:lastModified="{Date}2019-11-04T12:48:32.537+05:30"
             jcr:lastModifiedBy="admin"

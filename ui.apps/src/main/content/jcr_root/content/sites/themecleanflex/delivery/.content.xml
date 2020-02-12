@@ -12,15 +12,6 @@
         name="delivery"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
-        <n467904a4-9cfa-4f10-9698-3bfbeb67ce40
-            jcr:lastModified="{Date}2019-11-04T12:12:30.443+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecleanflex/components/breadcrumb"
-            bottompadding="10"
-            level="3"
-            linkcolor="primary"
-            toppadding="10"/>
         <n0ec68cae-ce70-402a-b9f1-c052255fe5c7
             jcr:lastModified="{Date}2019-11-04T12:17:24.422+05:30"
             jcr:lastModifiedBy="admin"

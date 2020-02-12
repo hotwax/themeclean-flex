@@ -12,28 +12,6 @@
         name="size-guide"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
-        <n0db42e3e-5519-4daf-9027-ca709a992c03
-            jcr:lastModified="{Date}2019-09-12T14:35:15.954+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecleanflex/components/breadcrumb"
-            bgcolor="#ffffff"
-            bgsize="cover"
-            bgvideo=""
-            bgxposition="50"
-            bgyposition="50"
-            blockwidth="default"
-            bottompadding="10"
-            color2="#c0c0c0"
-            colorscheme="light"
-            custombackground="false"
-            fullheight="false"
-            htmlelement="section"
-            level="3"
-            linkcolor="primary"
-            overlaycolor="#ffffff"
-            overlayopacity="50"
-            toppadding="10"/>
         <ne9568e26-b2df-45fe-bc15-d02117425681
             jcr:lastModified="{Date}2019-09-12T14:35:10.326+05:30"
             jcr:lastModifiedBy="admin"
