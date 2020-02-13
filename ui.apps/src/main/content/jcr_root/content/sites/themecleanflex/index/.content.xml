@@ -68,23 +68,23 @@
                     jcr:primaryType="nt:unstructured"
                     component="nt:unstructured"
                     image="/content/assets/themecleanflex/vuestorefront/ban1.jpg"
-                    link=""
+                    link="https://demo.hotwax.io/luma-performance"
                     linkType="url"
                     name="cards0"
                     path="/jcr:content/n3274dcd5-99fc-4b96-80f6-d7d41e05e3a1/cards/cards0"
                     text="COLLECTION&lt;br>"
-                    title="Office casual"/>
+                    title="Luma Performance"/>
                 <cards1
                     jcr:lastModified="{Date}2019-11-04T10:44:56.839+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     component="nt:unstructured"
                     image="/content/assets/themecleanflex/vuestorefront/ban2.jpg"
-                    link=""
+                    link="https://demo.hotwax.io/best-seller"
                     linkType="url"
                     name="cards1"
                     path="/jcr:content/n3274dcd5-99fc-4b96-80f6-d7d41e05e3a1/cards/cards1"
-                    text="ACCESORIES&lt;br>"
+                    text="Best Seller"
                     title="Shine on"/>
                 <cards2
                     jcr:lastModified="{Date}2019-11-04T10:44:56.840+05:30"
@@ -92,11 +92,11 @@
                     jcr:primaryType="nt:unstructured"
                     component="nt:unstructured"
                     image="/content/assets/themecleanflex/vuestorefront/ban3.jpg"
-                    link="/content/sites/vuestorefront/size-guide"
-                    linkType="internalLink"
+                    link="https://demo.hotwax.io/sale"
+                    linkType="url"
                     name="cards2"
                     path="/jcr:content/n3274dcd5-99fc-4b96-80f6-d7d41e05e3a1/cards/cards2"
-                    text="HATS&lt;br>"
+                    text="Sale"
                     title="Spring is comming"/>
             </cards>
         </n3274dcd5-99fc-4b96-80f6-d7d41e05e3a1>
