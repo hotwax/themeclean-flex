@@ -744,13 +744,13 @@ public class TeaserverticalModel extends AbstractComponent {
 
 	/* {"type":"string","x-source":"inject","x-form-label":"Bottom Padding","x-form-type":"materialrange","x-form-min":0,"x-form-max":300,"x-form-visible":"model.fullheight != 'true'"} */
 	@Inject
-  private String bottompadding;
-  
-  @Inject
-  private String linkType;
+    private String bottompadding;
 
-  @Inject
-  private String imageLinkType;
+    @Inject
+    private String linkType;
+
+    @Inject
+    private String imageLinkType;
 
 
 //GEN]
@@ -955,12 +955,12 @@ public class TeaserverticalModel extends AbstractComponent {
 	public String getBottompadding() {
 		return bottompadding;
   }
-  
-  public String getLinkType(){
+
+    public String getLinkType(){
     return linkType;
   }
 
-  public String getImageLinkType(){
+    public String getImageLinkType(){
     return imageLinkType;
   }
 
