@@ -1,0 +1,35 @@
+{
+  "definitions": {
+    "Appstore": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "title": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Title",
+          "x-form-type": "text"
+        },
+        "image": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Image",
+          "x-form-type": "pathbrowser",
+          "x-form-browserRoot": "/content/assets"
+        },
+        "playstoreurl": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Play Store URL",
+          "x-form-type": "url"
+        },
+        "applestoreurl": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Apple Store URL",
+          "x-form-type": "url"
+        }
+      }
+    }
+  }
+}
