@@ -12,15 +12,6 @@
         name="customer-service"
         template="/content/templates/themecleanflex"
         templatePath="/content/templates/themecleanflex">
-        <n66ea2b57-6b06-4a5e-8d52-2c74ee193b59
-            jcr:lastModified="{Date}2019-11-04T12:18:18.119+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecleanflex/components/breadcrumb"
-            bottompadding="10"
-            level="3"
-            linkcolor="primary"
-            toppadding="10"/>
         <n9146a626-8899-4d26-bae8-26d4e07b286a
             jcr:lastModified="{Date}2019-11-04T12:18:57.233+05:30"
             jcr:lastModifiedBy="admin"
