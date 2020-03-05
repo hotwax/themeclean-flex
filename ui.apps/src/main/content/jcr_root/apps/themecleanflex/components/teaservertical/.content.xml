@@ -29,7 +29,7 @@
       </jcr:content>
     </sample-rte>
     <sample-teaserfull jcr:primaryType="nt:unstructured" title="Banner" group="Features">
-      <jcr:content jcr:primaryType="nt:unstructured" showtitle="true" showtext="true" aligncontent="left" showsubtitle="false" showbutton="false" isprimary="false" textwidth="30" fullheight="true" custombackground="true" backgroundtype="image" bgimage="/content/assets/vuestorefront/vuestorefront/full_width_banner.jpg" overlay="false" overlaycolor="#ffffff" overlayopacity="70" bottompadding="30" toppadding="30" bgxposition="45" bgyposition="0" bgsize="cover" text="A fashion can become the prevailing style in behaviour or manifest the \nnewest creations of designers, technologists, engineers, and design managers." subtitle="" buttonsize="large" title="Walk the walk">
+      <jcr:content jcr:primaryType="nt:unstructured" showtitle="true" showtext="true" aligncontent="left" showsubtitle="false" linkType="internalLink" imageLinkType="internalLink" showbutton="false" isprimary="false" textwidth="30" fullheight="true" custombackground="true" backgroundtype="image" bgimage="/content/assets/vuestorefront/vuestorefront/full_width_banner.jpg" overlay="false" overlaycolor="#ffffff" overlayopacity="70" bottompadding="30" toppadding="30" bgxposition="45" bgyposition="0" bgsize="cover" text="A fashion can become the prevailing style in behaviour or manifest the \nnewest creations of designers, technologists, engineers, and design managers." subtitle="" buttonsize="large" title="Walk the walk">
       </jcr:content>
     </sample-teaserfull>
   </jcr:content>
