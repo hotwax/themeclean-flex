@@ -145,11 +145,13 @@
           "visible": "model.showbutton == 'true'"
         },
         {
-          "type": "pathbrowser",
+          "type": "buttonlinkfield",
           "browserRoot": "/content/sites",
           "placeholder": "buttonlink",
           "label": "Button Link",
           "model": "buttonlink",
+          "internalLinkPlaceholder": "Link",
+          "urlPlaceholder": "URL",
           "visible": "model.showbutton == 'true'"
         },
         {
