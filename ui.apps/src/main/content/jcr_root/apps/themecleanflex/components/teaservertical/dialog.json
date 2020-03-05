@@ -183,11 +183,13 @@
           "model": "buttontext"
         },
         {
-          "type": "pathbrowser",
+          "type": "buttonlinkfield",
           "browserRoot": "/content/sites",
-          "placeholder": "buttonlink",
+          "placeholder": "link",
           "label": "Button Link",
-          "model": "buttonlink"
+          "model": "buttonlink",
+          "internalLinkPlaceholder": "Link",
+          "urlPlaceholder": "URL"
         },
         {
           "type": "material-select",
