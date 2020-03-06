@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Social Links" group=".hidden">
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Social Links" group="Navigation">
   <jcr:content jcr:primaryType="nt:unstructured">
     <icons jcr:primaryType="nt:unstructured">
       <icons0 jcr:primaryType="nt:unstructured" url="https://www.facebook.com/" icon="facebook"/>
