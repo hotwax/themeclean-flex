@@ -79,73 +79,75 @@ import javax.inject.Inject;
 //GEN]
 public class NewslatterModel extends AbstractComponent {
 
-    public NewslatterModel(Resource r) { super(r); }
+    public NewslatterModel(Resource r) {
+        super(r);
+    }
 
     //GEN[:INJECT
-    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
-	@Inject
-	private String title;
+    /* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+    @Inject
+    private String title;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
-	@Inject
-	private String text;
+    /* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
+    @Inject
+    private String text;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
-	@Inject
-	private String image;
+    /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
+    @Inject
+    private String image;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button text","x-form-type":"text"} */
-	@Inject
-	private String buttontext;
+    /* {"type":"string","x-source":"inject","x-form-label":"Button text","x-form-type":"text"} */
+    @Inject
+    private String buttontext;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"buttonlinkfield","x-form-browserRoot":"/content/sites"} */
-	@Inject
-  private String buttonlink;
-  
-  @Inject
-  @Default(values = "internalLink")
-  private String buttonLinkType;
+    /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"buttonlinkfield","x-form-browserRoot":"/content/sites"} */
+    @Inject
+    private String buttonlink;
 
-  @Inject
-  @Default(values = "internalLink")
-  private String imageLinkType;
+    @Inject
+    @Default(values = "internalLink")
+    private String buttonLinkType;
+
+    @Inject
+    @Default(values = "internalLink")
+    private String imageLinkType;
 
 
 //GEN]
 
     //GEN[:GETTERS
-    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
-	public String getTitle() {
-		return title;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+    public String getTitle() {
+        return title;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
-	public String getText() {
-		return text;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
+    public String getText() {
+        return text;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
-	public String getImage() {
-		return image;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
+    public String getImage() {
+        return image;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button text","x-form-type":"text"} */
-	public String getButtontext() {
-		return buttontext;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Button text","x-form-type":"text"} */
+    public String getButtontext() {
+        return buttontext;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"buttonlinkfield","x-form-browserRoot":"/content/sites"} */
-	public String getButtonlink() {
-		return buttonlink;
-  }
-  
-  public String getButtonLinkType(){
-    return buttonLinkType;
-  }
+    /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"buttonlinkfield","x-form-browserRoot":"/content/sites"} */
+    public String getButtonlink() {
+        return buttonlink;
+    }
 
-  public String getImageLinkType(){
-    return buttonLinkType;
-  }
+    public String getButtonLinkType() {
+        return buttonLinkType;
+    }
+
+    public String getImageLinkType() {
+        return buttonLinkType;
+    }
 
 
 //GEN]
