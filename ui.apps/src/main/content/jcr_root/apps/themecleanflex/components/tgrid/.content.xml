@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="T Grid" group=".hidden">
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="T Grid" group="Banner">
   <jcr:content jcr:primaryType="nt:unstructured" showbutton="true">
     <cards jcr:primaryType="nt:unstructured">
       <cards0 jcr:primaryType="nt:unstructured" buttontext="BUTTON" buttonlink="" linkType="internalLink" imageLinkType="internalLink" buttonLinkType="internalLink" image="/content/assets/themecleanflex/vuestorefront/image3.png" text="Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses and party dresses from all your favorite brands." title="COCKTAIL &amp; PARTY"/>
