@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "pathbrowser",
+      "browserRoot": "/content/assets",
+      "placeholder": "image",
+      "label": "Image",
+      "model": "image"
+    },
+    {
+      "type": "input",
+      "inputType": "url",
+      "placeholder": "playstoreurl",
+      "label": "Play Store URL",
+      "model": "playstoreurl"
+    },
+    {
+      "type": "input",
+      "inputType": "url",
+      "placeholder": "applestoreurl",
+      "label": "Apple Store URL",
+      "model": "applestoreurl"
+    }
+  ]
+}
