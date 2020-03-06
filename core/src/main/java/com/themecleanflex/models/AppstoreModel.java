@@ -70,70 +70,72 @@ import javax.inject.Inject;
 //GEN]
 public class AppstoreModel extends AbstractComponent {
 
-    public AppstoreModel(Resource r) { super(r); }
+    public AppstoreModel(Resource r) {
+        super(r);
+    }
 
     //GEN[:INJECT
-    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
-	@Inject
-	private String title;
+    /* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+    @Inject
+    private String title;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
-	@Inject
-	private String image;
+    /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
+    @Inject
+    private String image;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Play Store URL","x-form-type":"url"} */
-	@Inject
-	private String playstoreurl;
+    /* {"type":"string","x-source":"inject","x-form-label":"Play Store URL","x-form-type":"url"} */
+    @Inject
+    private String playstoreurl;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Apple Store URL","x-form-type":"url"} */
-	@Inject
-  private String applestoreurl;
-  
-  @Inject
-  @Default(values = "internalLink")
-  private String imageLinkType;
-  
-  @Inject
-  private String playStoreImage;
-  
-  @Inject
-  private String appleStoreImage;
+    /* {"type":"string","x-source":"inject","x-form-label":"Apple Store URL","x-form-type":"url"} */
+    @Inject
+    private String applestoreurl;
+
+    @Inject
+    @Default(values = "internalLink")
+    private String imageLinkType;
+
+    @Inject
+    private String playStoreImage;
+
+    @Inject
+    private String appleStoreImage;
 
 
 //GEN]
 
     //GEN[:GETTERS
-    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
-	public String getTitle() {
-		return title;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+    public String getTitle() {
+        return title;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
-	public String getImage() {
-		return image;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
+    public String getImage() {
+        return image;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Play Store URL","x-form-type":"url"} */
-	public String getPlaystoreurl() {
-		return playstoreurl;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Play Store URL","x-form-type":"url"} */
+    public String getPlaystoreurl() {
+        return playstoreurl;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Apple Store URL","x-form-type":"url"} */
-	public String getApplestoreurl() {
-		return applestoreurl;
-  }
-  
-  public String getImageLinkType(){
-    return imageLinkType;
-  }
+    /* {"type":"string","x-source":"inject","x-form-label":"Apple Store URL","x-form-type":"url"} */
+    public String getApplestoreurl() {
+        return applestoreurl;
+    }
 
-  public String getPlayStoreImage(){
-    return playStoreImage;
-  }
+    public String getImageLinkType() {
+        return imageLinkType;
+    }
 
-  public String getAppleStoreImage(){
-    return appleStoreImage;
-  }
+    public String getPlayStoreImage() {
+        return playStoreImage;
+    }
+
+    public String getAppleStoreImage() {
+        return appleStoreImage;
+    }
 
 
 //GEN]
