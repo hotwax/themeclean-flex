@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Banner Left" group=".hidden">
-  <jcr:content jcr:primaryType="nt:unstructured" title="COCKTAIL &amp; PARTY" text="Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses and party dresses from all your favorite brands." image="/content/assets/themecleanflex/vuestorefront/image3.png" buttontext="BUTTON"/>
+  <jcr:content jcr:primaryType="nt:unstructured" title="COCKTAIL &amp; PARTY" text="Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses and party dresses from all your favorite brands." image="/content/assets/themecleanflex/vuestorefront/image3.png" buttontext="BUTTON" showbutton="false" linkType="internalLink" imageLinkType="internalLink" buttonLinkType="internalLink"/>
 </jcr:root>
