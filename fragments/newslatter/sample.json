@@ -1,0 +1,9 @@
+{
+  "title": "Newslatter",
+  "group": "Banner",
+  "model": {
+    "title": "Subscribe to Newsletters",
+    "text": "Be aware of upcoming sales and events. Receive gifts and special offers!",
+    "buttontext": "Subscribe"
+  }
+}
