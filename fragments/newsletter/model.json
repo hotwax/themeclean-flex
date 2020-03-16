@@ -1,6 +1,6 @@
 {
   "definitions": {
-    "Newslatter": {
+    "Newsletter": {
       "type": "object",
       "x-type": "component",
       "properties": {
