@@ -56,7 +56,7 @@ import javax.inject.Inject;
     }
   },
   "name": "Newslatter",
-  "componentPath": "themecleanflex/components/newslatter",
+  "componentPath": "themecleanflex/components/newsletter",
   "package": "com.themecleanflex.models",
   "modelName": "Newslatter",
   "classNameParent": "AbstractComponent"
@@ -67,7 +67,7 @@ import javax.inject.Inject;
 //GEN[:DEF
 @Model(
         adaptables = Resource.class,
-        resourceType = "themecleanflex/components/newslatter",
+        resourceType = "themecleanflex/components/newsletter",
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL,
         adapters = IComponent.class
 )
@@ -77,9 +77,9 @@ import javax.inject.Inject;
 )
 
 //GEN]
-public class NewslatterModel extends AbstractComponent {
+public class NewsletterModel extends AbstractComponent {
 
-    public NewslatterModel(Resource r) {
+    public NewsletterModel(Resource r) {
         super(r);
     }
 
