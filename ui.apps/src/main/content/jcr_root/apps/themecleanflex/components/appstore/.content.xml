@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="App Store" group="Banner">
-  <jcr:content jcr:primaryType="nt:unstructured" title="Download our application to your mobile" playStoreImage="/content/assets/themecleanflex/vuestorefront/applestore.png" appleStoreImage="/content/assets/themecleanflex/vuestorefront/playstore.png" image="/content/assets/themecleanflex/vuestorefront/mobile.png"/>
+  <jcr:content jcr:primaryType="nt:unstructured" imageLinkType="internalLink" title="Download our application to your mobile" playStoreImage="/content/assets/themecleanflex/vuestorefront/playstore.png" appleStoreImage="/content/assets/themecleanflex/vuestorefront/applestore.png" image="/content/assets/themecleanflex/vuestorefront/mobile.png"/>
 </jcr:root>
