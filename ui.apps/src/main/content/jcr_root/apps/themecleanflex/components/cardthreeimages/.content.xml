@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Cards Three Layout" group="Features">
   <jcr:content jcr:primaryType="nt:unstructured">
     <cards jcr:primaryType="nt:unstructured">
-      <cards0 jcr:primaryType="nt:unstructured" title="Office casual" text="COLLECTION" image="/content/assets/themecleanflex/vuestorefront/ban1.jpg" linkType="internalLink" imageLinkType="internalLink" link="" />
-      <cards1 jcr:primaryType="nt:unstructured" title="Shine on" text="ACCESORIES" image="/content/assets/themecleanflex/vuestorefront/ban2.jpg" linkType="internalLink" imageLinkType="internalLink" link="" />
-      <cards2 jcr:primaryType="nt:unstructured" title="Spring is comming" text="HATS" image="/content/assets/themecleanflex/vuestorefront/ban3.jpg" linkType="internalLink" imageLinkType="internalLink" link="" />
+      <cards0 jcr:primaryType="nt:unstructured" title="Office casual" text="COLLECTION" imagealttext="" image="/content/assets/themecleanflex/vuestorefront/ban1.jpg" linkType="internalLink" imageLinkType="internalLink" link="" />
+      <cards1 jcr:primaryType="nt:unstructured" title="Shine on" text="ACCESORIES" imagealttext="" image="/content/assets/themecleanflex/vuestorefront/ban2.jpg" linkType="internalLink" imageLinkType="internalLink" link="" />
+      <cards2 jcr:primaryType="nt:unstructured" title="Spring is comming" text="HATS" imagealttext="" image="/content/assets/themecleanflex/vuestorefront/ban3.jpg" linkType="internalLink" imageLinkType="internalLink" link="" />
     </cards>
   </jcr:content>
 </jcr:root>

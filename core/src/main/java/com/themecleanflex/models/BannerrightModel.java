@@ -8,6 +8,7 @@ import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
+
 import java.util.List;
 
 import javax.inject.Inject;
@@ -120,103 +121,112 @@ import javax.inject.Named;
 //GEN]
 public class BannerrightModel extends AbstractComponent {
 
-    public BannerrightModel(Resource r) { super(r); }
+    public BannerrightModel(Resource r) {
+        super(r);
+    }
 
     //GEN[:INJECT
-    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
-	@Inject
-	private String title;
+    /* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+    @Inject
+    private String title;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
-	@Inject
-	private String image;
+    /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
+    @Inject
+    private String image;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
-	@Inject
-	private String link;
+    /* {"type":"string","x-source":"inject","x-form-label":"Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
+    @Inject
+    private String link;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
-	@Inject
-	private String text;
+    /* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
+    @Inject
+    private String text;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Show Button","x-form-type":"materialswitch"} */
-	@Inject
-	private String showbutton;
+    /* {"type":"string","x-source":"inject","x-form-label":"Show Button","x-form-type":"materialswitch"} */
+    @Inject
+    private String showbutton;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
-	@Inject
-	private String buttontext;
+    /* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
+    @Inject
+    private String buttontext;
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-visible":"model.showbutton == 'true'","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
-	@Inject
-	private String buttonlink;
+    /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-visible":"model.showbutton == 'true'","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
+    @Inject
+    private String buttonlink;
 
-	/* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
-	@Inject
-	@Default(values ="internalLink")
-	private String linkType;
+    /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
+    @Inject
+    @Default(values = "internalLink")
+    private String linkType;
 
-	/* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
-	@Inject
-	@Default(values ="internalLink")
-  private String imageLinkType;
-  
-  @Inject
-  @Default(values = "internalLink")
-  private String buttonLinkType;
+    /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
+    @Inject
+    @Default(values = "internalLink")
+    private String imageLinkType;
+
+    @Inject
+    @Default(values = "internalLink")
+    private String buttonLinkType;
+
+    @Inject
+    private String imagealttext;
 
 
 //GEN]
 
     //GEN[:GETTERS
-    	/* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
-	public String getTitle() {
-		return title;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Title","x-form-type":"text"} */
+    public String getTitle() {
+        return title;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
-	public String getImage() {
-		return image;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
+    public String getImage() {
+        return image;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
-	public String getLink() {
-		return link;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
+    public String getLink() {
+        return link;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
-	public String getText() {
-		return text;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Text","x-form-type":"texteditor"} */
+    public String getText() {
+        return text;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Show Button","x-form-type":"materialswitch"} */
-	public String getShowbutton() {
-		return showbutton;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Show Button","x-form-type":"materialswitch"} */
+    public String getShowbutton() {
+        return showbutton;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
-	public String getButtontext() {
-		return buttontext;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
+    public String getButtontext() {
+        return buttontext;
+    }
 
-	/* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-visible":"model.showbutton == 'true'","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
-	public String getButtonlink() {
-		return buttonlink;
-	}
+    /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-visible":"model.showbutton == 'true'","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
+    public String getButtonlink() {
+        return buttonlink;
+    }
 
-	/* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
-	public String getLinkType() {
-		return linkType;
-	}
+    /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
+    public String getLinkType() {
+        return linkType;
+    }
 
-	/* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
-	public String getImageLinkType() {
-		return imageLinkType;
-  }
-  
-  public String getButtonLinkType() {
-    return buttonLinkType;
-  }
+    /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
+    public String getImageLinkType() {
+        return imageLinkType;
+    }
+
+    public String getButtonLinkType() {
+        return buttonLinkType;
+    }
+
+    public String getImagealttext() {
+        return imagealttext;
+    }
 
 
 //GEN]

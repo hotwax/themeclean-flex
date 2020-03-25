@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Horizontal Twins" group="Banner">
   <jcr:content jcr:primaryType="nt:unstructured" showbutton="true">
     <cards jcr:primaryType="nt:unstructured">
-      <cards0 jcr:primaryType="nt:unstructured" buttontext="BUTTON" buttonlink="" linkType="internalLink" imageLinkType="internalLink" buttonLinkType="internalLink" image="/content/assets/themecleanflex/vuestorefront/image2.png" title="THE OFFICE LIFE"/>
-      <cards1 jcr:primaryType="nt:unstructured" buttontext="BUTTON" buttonlink="" linkType="internalLink" imageLinkType="internalLink" buttonLinkType="internalLink" image="/content/assets/themecleanflex/vuestorefront/image5.1.png" title="ECO SANDALS"/>
+      <cards0 jcr:primaryType="nt:unstructured" buttontext="BUTTON" imagealttext="" buttonlink="" linkType="internalLink" link="" imageLinkType="internalLink" buttonLinkType="internalLink" image="/content/assets/themecleanflex/vuestorefront/image2.png" title="THE OFFICE LIFE"/>
+      <cards1 jcr:primaryType="nt:unstructured" buttontext="BUTTON" imagealttext="" buttonlink="" linkType="internalLink" link="" imageLinkType="internalLink" buttonLinkType="internalLink" image="/content/assets/themecleanflex/vuestorefront/image5.1.png" title="ECO SANDALS"/>
     </cards>
   </jcr:content>
 </jcr:root>
