@@ -16,6 +16,13 @@
     },
     {
       "type": "input",
+      "inputType": "text",
+      "placeholder": "imagealttext",
+      "label": "Image Alt Text",
+      "model": "imagealttext"
+    },
+    {
+      "type": "input",
       "inputType": "url",
       "placeholder": "playstoreurl",
       "label": "Play Store URL",

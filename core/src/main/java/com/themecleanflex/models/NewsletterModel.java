@@ -112,6 +112,9 @@ public class NewsletterModel extends AbstractComponent {
     @Default(values = "internalLink")
     private String imageLinkType;
 
+    @Inject
+    private String imagealttext;
+
 
 //GEN]
 
@@ -149,8 +152,11 @@ public class NewsletterModel extends AbstractComponent {
         return buttonLinkType;
     }
 
+    public String getImagealttext() {
+        return imagealttext;
+    }
 
-//GEN]
+    //GEN]
 
     //GEN[:CUSTOMGETTERS
     //GEN]
