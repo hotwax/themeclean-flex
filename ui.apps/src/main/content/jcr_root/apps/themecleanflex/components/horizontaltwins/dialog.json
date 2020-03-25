@@ -44,7 +44,7 @@
         {
           "type": "input",
           "inputType": "text",
-          "placeholder": "imagealttext",
+          "placeholder": "Image Alternate Text",
           "label": "Image Alt Text",
           "model": "imagealttext"
         },
