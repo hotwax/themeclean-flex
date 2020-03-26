@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Banner Right" group="Banner">
-  <jcr:content jcr:primaryType="nt:unstructured" title="ECO SANDALS" text="The collection features formal and casual comfort shoes with a Danish design focus. Made from premium leathers and comfort." image="/content/assets/themecleanflex/vuestorefront/Banner3.png" link="" buttonlink="" buttontext="View" showbutton="false" linkType="internalLink" imageLinkType="internalLink" buttonLinkType="internalLink"/>
+  <jcr:content jcr:primaryType="nt:unstructured" title="ECO SANDALS" text="The collection features formal and casual comfort shoes with a Danish design focus. Made from premium leathers and comfort." imagealttext="" image="/content/assets/themecleanflex/vuestorefront/Banner3.png" link="" buttonlink="" buttontext="View" showbutton="false" linkType="internalLink" imageLinkType="internalLink" buttonLinkType="internalLink"/>
 </jcr:root>
