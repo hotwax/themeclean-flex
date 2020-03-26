@@ -24,6 +24,13 @@
     {
       "type": "input",
       "inputType": "text",
+      "placeholder": "Image Alternate Text",
+      "label": "Image Alt Text",
+      "model": "imagealttext"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
       "placeholder": "buttontext",
       "label": "Button text",
       "model": "buttontext"

@@ -42,6 +42,13 @@
           "model": "image"
         },
         {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "Image Alternate Text",
+          "label": "Image Alt Text",
+          "model": "imagealttext"
+        },
+        {
           "type": "texteditor",
           "rows": 10,
           "placeholder": "text",

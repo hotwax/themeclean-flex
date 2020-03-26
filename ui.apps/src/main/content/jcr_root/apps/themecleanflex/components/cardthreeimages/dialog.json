@@ -30,6 +30,13 @@
           "model": "image"
         },
         {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "Image Alternate Text",
+          "label": "Image Alt Text",
+          "model": "imagealttext"
+        },
+        {
           "type": "inputlink",
           "browserRoot": "/content/sites",
           "internalLinkPlaceholder": "link",

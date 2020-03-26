@@ -161,6 +161,9 @@ public class BannerleftModel extends AbstractComponent {
     @Default(values = "internalLink")
     private String buttonLinkType;
 
+    @Inject
+    private String imagealttext;
+
 
 //GEN]
 
@@ -212,6 +215,10 @@ public class BannerleftModel extends AbstractComponent {
 
     public String getButtonLinkType() {
         return buttonLinkType;
+    }
+
+    public String getImagealttext() {
+        return imagealttext;
     }
 
 
