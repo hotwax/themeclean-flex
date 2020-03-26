@@ -21,14 +21,14 @@
         {
           "type": "input",
           "inputType": "text",
-          "placeholder": "title",
+          "placeholder": "Title",
           "label": "Card Title",
           "model": "title"
         },
         {
           "type": "texteditor",
           "rows": 10,
-          "placeholder": "text",
+          "placeholder": "Text",
           "label": "Card Text",
           "model": "text"
         },
@@ -44,7 +44,7 @@
         {
           "type": "pathbrowser",
           "browserRoot": "/content/assets",
-          "placeholder": "image",
+          "placeholder": "Image",
           "label": "Card Image",
           "model": "image"
         },
@@ -58,7 +58,7 @@
         {
           "type": "input",
           "inputType": "text",
-          "placeholder": "buttontext",
+          "placeholder": "Button Text",
           "label": "Button Text",
           "model": "buttontext"
         },

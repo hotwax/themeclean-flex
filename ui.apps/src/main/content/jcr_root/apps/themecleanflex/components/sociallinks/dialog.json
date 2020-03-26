@@ -11,14 +11,14 @@
         {
           "type": "input",
           "inputType": "text",
-          "placeholder": "icon",
+          "placeholder": "Icon",
           "label": "Icon Name",
           "model": "icon"
         },
         {
           "type": "input",
           "inputType": "url",
-          "placeholder": "url",
+          "placeholder": "URL",
           "label": "URL",
           "model": "url"
         }

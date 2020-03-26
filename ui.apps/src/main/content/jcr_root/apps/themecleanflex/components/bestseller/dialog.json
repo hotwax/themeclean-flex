@@ -3,14 +3,14 @@
     {
       "type": "input",
       "inputType": "text",
-      "placeholder": "title",
+      "placeholder": "Title",
       "label": "Title",
       "model": "title"
     },
     {
       "type": "input",
       "inputType": "text",
-      "placeholder": "url",
+      "placeholder": "URL",
       "label": "URL",
       "model": "url"
     }
