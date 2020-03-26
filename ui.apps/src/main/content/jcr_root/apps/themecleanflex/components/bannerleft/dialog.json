@@ -19,7 +19,7 @@
     {
       "type": "pathbrowser",
       "browserRoot": "/content/assets",
-      "placeholder": "image",
+      "placeholder": "Image",
       "label": "Image",
       "model": "image"
     },
@@ -50,7 +50,7 @@
     {
       "type": "input",
       "inputType": "text",
-      "placeholder": "buttontext",
+      "placeholder": "Button Text",
       "label": "Button Text",
       "model": "buttontext",
       "visible": "model.showbutton == 'true'"
