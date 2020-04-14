@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "Blogimage": {
+      "type": "object",
+      "x-type": "component",
+      "properties": {
+        "image": {
+          "type": "string",
+          "x-source": "inject",
+          "x-form-label": "Image",
+          "x-form-type": "pathbrowser",
+          "x-form-browserRoot": "/content/assets"
+        }
+      }
+    }
+  }
+}
