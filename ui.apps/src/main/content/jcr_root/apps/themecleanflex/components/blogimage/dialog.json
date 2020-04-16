@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "pathbrowser",
+      "browserRoot": "/content/assets",
+      "placeholder": "Image",
+      "label": "Image",
+      "model": "image"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Image Alternate Text",
+      "label": "Image Alt Text",
+      "model": "imagealttext"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {
+      "type": "texteditor",
+      "rows": 10,
+      "placeholder": "Text",
+      "label": "text",
+      "model": "text"
+    }
+  ]
+}
