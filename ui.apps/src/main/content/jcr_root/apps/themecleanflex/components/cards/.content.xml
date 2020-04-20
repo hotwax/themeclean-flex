@@ -4,12 +4,12 @@
     <sample jcr:primaryType="nt:unstructured" title="Cards" group="Features">
       <jcr:content jcr:primaryType="nt:unstructured" title="Get inspired" bgcolor="#ffffff" bottompadding="20" showbutton="false" showtext="false" showtitle="false" showcard="false" toppadding="20" customcardcolor="true" cardcolor="#eeeeee">
         <cards jcr:primaryType="nt:unstructured">
-          <cards0 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig01.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards1 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig02.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards2 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig03.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards3 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig04.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards4 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig05.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards5 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig06.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards0 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/notnaked/women.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards1 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/notnaked/boy.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards2 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/notnaked/girl.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards3 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/notnaked/men_in_hoodie.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards4 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/notnaked/girls_dress.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards5 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/notnaked/men.jpg" linkType="internalLink" imageLinkType="internalLink" />
         </cards>
       </jcr:content>
     </sample>
