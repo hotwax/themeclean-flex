@@ -16,3 +16,4 @@
 - Blog Text Component [#80](https://github.com/hotwax/themeclean-flex/pull/80)
 - Blog Image Component [#80](https://github.com/hotwax/themeclean-flex/pull/80)
 - Footer Page: Created a footer page for the footer navigation, It only contains menus, social links and copyright text. [#34](https://github.com/hotwax/themeclean-flex/pull/34)
+- Collection Component [#83](https://github.com/hotwax/themeclean-flex/pull/83)
