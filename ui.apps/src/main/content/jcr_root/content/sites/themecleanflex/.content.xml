@@ -34,10 +34,6 @@
             </serviceworker.js>
         </replacements>
     </jcr:content>
-    <library/>
-    <robots.txt/>
-    <manifest.json/>
-    <serviceworker.js/>
     <css/>
     <about-us/>
     <returns/>
