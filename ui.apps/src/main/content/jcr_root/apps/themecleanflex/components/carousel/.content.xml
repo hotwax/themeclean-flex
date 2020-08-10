@@ -4,9 +4,8 @@
     <sample jcr:primaryType="nt:unstructured" title="Carousel" group="Features">
       <jcr:content jcr:primaryType="nt:unstructured" carouselheight="80" toppadding="20" bottompadding="20">
         <slides jcr:primaryType="nt:unstructured">
-          <slides0 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/themecleanflex/samples/architecture-blue-skies_large.jpg" imagefit="cover" title="Lorem Ipsum" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." alt="Sailboats in front of city skyline and sunset"/>
-          <slides1 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/themecleanflex/samples/sailing-lake_large.jpg" imagefit="cover" title="Lorem Ipsum" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. " alt="Sailboat sailing on a lake"/>
-          <slides2 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/themecleanflex/samples/beach-boats-ocean_large.jpg" imagefit="cover" title="Lorem Ipsum" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. " alt="Sailboats sailing on an ocean"/>
+          <slides0 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/themecleanflex/vuestorefront/Carousel1.png" imagefit="cover" title="" text="SUMMER COLLECTION 2020" alt=""/>
+          <slides1 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/themecleanflex/vuestorefront/Carousel2.png" imagefit="cover" title="" text="SUMMER COLLECTION 2020" alt=""/>
         </slides>
       </jcr:content>
     </sample>
