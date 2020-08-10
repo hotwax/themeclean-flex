@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2020-02-10T17:26:08.293+05:30"
+    jcr:lastModified="{Date}2020-06-02T10:11:21.264+05:30"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Asset">
     <jcr:content
         jcr:data="{Binary}"
-        jcr:lastModified="{Date}2020-02-10T17:26:08.293+05:30"
+        jcr:lastModified="{Date}2020-06-02T10:11:21.264+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:mimeType="image/png"
+        jcr:mimeType="image/jpeg"
         jcr:primaryType="per:AssetContent">
         <metadata/>
     </jcr:content>
