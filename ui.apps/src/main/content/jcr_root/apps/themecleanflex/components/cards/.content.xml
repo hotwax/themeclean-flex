@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Cards">
   <jcr:content jcr:primaryType="nt:unstructured" __variations="true">
     <sample jcr:primaryType="nt:unstructured" title="Cards" group="Features">
-      <jcr:content jcr:primaryType="nt:unstructured" title="Get inspired" bgcolor="#ffffff" bottompadding="20" showbutton="false" showtext="false" showtitle="false" showcard="false" toppadding="20" customcardcolor="true" cardcolor="#eeeeee">
+      <jcr:content jcr:primaryType="nt:unstructured" title=" Share Your Look" bgcolor="#ffffff" bottompadding="20" showbutton="false" showtext="false" showtitle="false" showcard="false" toppadding="20" customcardcolor="true" cardcolor="#eeeeee">
         <cards jcr:primaryType="nt:unstructured">
-          <cards0 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig01.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards1 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig02.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards2 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig03.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards3 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig04.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards4 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig05.jpg" linkType="internalLink" imageLinkType="internalLink" />
-          <cards5 jcr:primaryType="nt:unstructured" image="/content/assets/vuestorefront/vuestorefront/ig06.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards0 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/vuestorefront/imagegrid1.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards1 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/vuestorefront/imagegrid2.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards2 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/vuestorefront/imagegrid3.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards3 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/vuestorefront/imagegrid4.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards4 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/vuestorefront/imagegrid5.jpg" linkType="internalLink" imageLinkType="internalLink" />
+          <cards5 jcr:primaryType="nt:unstructured" image="/content/assets/themecleanflex/vuestorefront/imagegrid6.jpg" linkType="internalLink" imageLinkType="internalLink" />
         </cards>
       </jcr:content>
     </sample>
